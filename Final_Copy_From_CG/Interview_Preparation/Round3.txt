@@ -1,0 +1,77 @@
+That's actually a very positive sign. 🙂
+
+If your feedback from the earlier rounds was strong enough to reach the QA Associate Director at Julius Baer, the discussion often shifts from "Can you do the work?" to "Can we trust you with our clients, stakeholders, and delivery?"
+
+A few indicators I would watch for during the interview:
+
+Good Signs
+He spends more time discussing projects than asking coding questions.
+He asks about conflict management and stakeholder handling.
+He discusses team structure and reporting lines.
+He asks about notice period, joining timeline, or current compensation.
+He explains the program or future roadmap.
+Questions You Should Nail
+
+1. Tell me about your automation framework. Keep it concise:
+
+Architecture
+Design patterns
+Parallel execution
+CI/CD
+Reporting
+Scalability
+
+2. How do you handle a production defect? Use:
+
+RCA
+Impact analysis
+Corrective action
+Preventive action
+
+3. How do you determine release readiness? Mention:
+
+Test execution status
+Critical defects
+Automation results
+Business sign-off
+Risk assessment
+
+4. A developer disagrees with your defect. What do you do? Answer:
+
+Discuss with evidence
+Reproduce
+Review requirements
+Involve BA/PO if needed
+Focus on quality, not blame
+
+5. Why do you want to join Julius Baer? Sample:
+
+I am looking to contribute in a mature wealth management environment where quality engineering, automation, and regulatory compliance are critical. My experience in banking and automation positions me well to add value while also growing into larger delivery and quality leadership responsibilities.
+
+One Question You Should Ask
+
+"What would success look like for the person hired into this role within the first 6 to 12 months?"
+
+Senior managers usually appreciate this because it shows ownership rather than just interest in salary or designation.
+
+My Honest Assessment
+
+Based on what you've shared previously:
+
+12.5+ years experience ✅
+Automation Framework experience ✅
+Selenium/API Testing ✅
+Banking/Financial Services exposure ✅
+Client-facing consulting background ✅
+
+You already fit many of the areas a QA leadership team would look for. The interview is likely to be decided more by your communication, stakeholder-management examples, and confidence than by technical questions.
+
+Be ready with 3 strong stories:
+
+Framework implementation.
+Major production issue prevented/resolved.
+Team leadership or stakeholder-management challenge.
+
+Those stories usually carry a lot of weight in a final managerial round.
+
+Good luck, Prasanth. Go in with the mindset that they're evaluating a future partner in delivery, not just another automation tester. 💪

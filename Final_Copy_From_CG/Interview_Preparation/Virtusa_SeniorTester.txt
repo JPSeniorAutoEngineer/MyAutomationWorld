@@ -1,0 +1,284 @@
+Since you have 12.5+ years of QA Automation experience and are interviewing for Virtusa Chennai - Selenium Automation Tester + API Testing, expect the discussion to be more framework, design, and real project-oriented rather than basic Selenium questions.
+Based on recent market trends for Senior Automation Engineer/QA Consultant roles, here are the most expected questions:
+1. Selenium Automation (High Probability)
+Framework Questions
+Q1. Explain your automation framework architecture.
+Expected Answer:
+Hybrid Framework (Page Object Model + Data Driven)
+TestNG as execution engine
+Maven for dependency management
+Extent Reports/Allure Reports
+Log4j logging
+Jenkins/Azure DevOps CI/CD
+Git version control
+Follow-up:
+Why did you choose POM?
+Q2. How do you handle stale element exceptions?
+ 
+try {
+   driver.findElement(locator).click();
+}
+catch(StaleElementReferenceException e) {
+   driver.findElement(locator).click();
+}
+ 
+Practical Answer:
+Re-locate the element
+Use explicit waits
+Avoid storing WebElement references for long duration
+Q3. Difference between Implicit Wait and Explicit Wait?
+Interviewers love this question.
+Implicit Wait	Explicit Wait
+Applied globally	Specific element
+Remains throughout session	Used when required
+Less flexible	More flexible
+Q4. How do you handle dynamic web elements?
+Possible approaches:
+XPath contains()
+starts-with()
+Dynamic CSS selectors
+Relative XPath
+Example:
+ 
+//button[contains(text(),'Submit')]
+ 
+Q5. What challenges did you face in Selenium?
+Example Answers:
+Dynamic IDs
+Multiple windows
+Shadow DOM
+Iframes
+Synchronization issues
+Parallel execution
+Q6. How do you execute tests in parallel?
+Expected discussion:
+ 
+<suite parallel="tests" thread-count="4">
+ 
+Follow-up:
+How do you ensure thread safety?
+Answer:
+ 
+ThreadLocal<WebDriver>
+ 
+Since you've worked on parallel execution, be ready for deep ThreadLocal discussion.
+2. Java Questions (Very High Probability)
+Virtusa generally checks Java fundamentals heavily.
+Q7. Explain OOPS concepts with framework examples.
+You already prepared this.
+Example:
+Encapsulation
+ 
+private WebDriver driver;
+ 
+Inheritance
+ 
+public class LoginPage extends BasePage
+ 
+Polymorphism
+Method Overloading
+Abstraction
+Interfaces
+Q8. Difference between HashMap and ConcurrentHashMap?
+Expected:
+HashMap	ConcurrentHashMap
+Not Thread Safe	Thread Safe
+Faster	Slightly slower
+Single Thread	Parallel Execution
+Q9. Difference between ArrayList and LinkedList?
+Q10. What is Exception Handling?
+Checked vs Unchecked Exception.
+Q11. Can a static method be overridden?
+Answer:
+No.
+Static methods are hidden, not overridden.
+Q12. Why String is Immutable?
+Common Virtusa question.
+Points:
+Security
+Thread Safety
+String Pool optimization
+3. API Testing Questions (Extremely Important)
+Q13. Explain API Testing Lifecycle.
+Expected flow:
+ 
+Requirement
+↓
+Review Swagger/OpenAPI
+↓
+Create Test Scenarios
+↓
+Send Requests
+↓
+Validate Response
+↓
+Automate
+↓
+CI/CD Integration
+ 
+Q14. What HTTP methods have you used?
+GET
+POST
+PUT
+PATCH
+DELETE
+Difference between PUT and PATCH is frequently asked.
+Q15. Status Codes
+Be ready for:
+ 
+200 OK
+201 Created
+204 No Content
+400 Bad Request
+401 Unauthorized
+403 Forbidden
+404 Not Found
+500 Internal Server Error
+503 Service Unavailable
+ 
+Q16. Difference between Path Parameter and Query Parameter?
+Example:
+Path Parameter
+ 
+/users/100
+ 
+Query Parameter
+ 
+/users?id=100
+ 
+You discussed this recently, so prepare thoroughly.
+Q17. How do you authenticate APIs?
+Expected answers:
+Basic Auth
+OAuth2
+Bearer Token
+JWT
+API Key
+Q18. How do you validate response schema?
+Using:
+ 
+JSON Schema Validator
+ 
+OR
+ 
+RestAssured
+ 
+Q19. How do you automate API tests?
+Example:
+ 
+given()
+.when()
+.get("/users")
+.then()
+.statusCode(200);
+ 
+4. Rest Assured Questions
+Q20. Explain Rest Assured Framework Structure
+Expected:
+ 
+base
+config
+utilities
+payload
+tests
+reports
+ 
+Q21. How do you deserialize JSON response?
+ 
+User user = response.as(User.class);
+ 
+Q22. How do you handle OAuth tokens dynamically?
+Common senior-level question.
+Approach:
+Generate token API
+Store token
+Pass token to subsequent APIs
+5. SQL Questions
+Banking/Financial projects normally require SQL.
+Q23. Difference between WHERE and HAVING?
+Q24. Find second highest salary.
+ 
+SELECT MAX(salary)
+FROM employee
+WHERE salary <
+(
+SELECT MAX(salary)
+FROM employee
+);
+ 
+Q25. Joins
+Inner Join
+Left Join
+Right Join
+Full Join
+6. Banking Domain Questions
+Since your experience is in Banking and Trading:
+Q26. What is Pre-Trade and Post-Trade?
+You recently prepared this.
+Pre-Trade
+Before execution
+Order creation
+Risk checks
+Compliance
+Post-Trade
+After execution
+Settlement
+Confirmation
+Reporting
+Q27. Explain STP.
+Straight Through Processing.
+Q28. Explain Trade Life Cycle.
+ 
+Order
+↓
+Execution
+↓
+Allocation
+↓
+Confirmation
+↓
+Settlement
+ 
+Very common in investment banking interviews.
+7. Automation Framework Design Questions
+Q29. If Virtusa gives you a new project, how will you design a framework from scratch?
+Expect this.
+Cover:
+Maven
+Selenium
+TestNG
+POM
+Utility Layer
+Config Management
+Reporting
+Jenkins Pipeline
+Q30. How do you achieve framework scalability?
+You've recently discussed this.
+Mention:
+Modular design
+Reusable utilities
+ThreadLocal
+CI/CD
+Cross-browser support
+Cloud execution (Sauce Labs/BrowserStack)
+3 Questions You Should Ask Them
+Question 1
+What percentage of work is Selenium UI automation vs API automation?
+Question 2
+Is the framework currently Selenium based or migrating towards Playwright?
+Question 3
+What are the major challenges the automation team is currently facing?
+These questions create a strong senior-consultant impression.
+Most Likely Virtusa Senior-Level Scenario Question
+Your automation suite has 2,000 test cases and execution takes 8 hours. How will you reduce execution time?
+Answer:
+Parallel execution
+Remove duplicate tests
+API layer validation wherever possible
+Selenium Grid
+Headless execution
+CI/CD distributed execution
+Optimize waits
+This is exactly the type of question many senior automation candidates face.
+Good luck, Prasanth. For your experience level, focus less on Selenium commands and more on framework architecture, ThreadLocal, parallel execution, API automation with Rest Assured, CI/CD integration, and real-world challenges you solved in banking projects. Those are usually the deciding factors.
+ 

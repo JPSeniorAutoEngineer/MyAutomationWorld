@@ -1,0 +1,72 @@
+﻿html, body, form
+{
+    height: 100%;
+    width: 100%;
+	margin: 0;	
+}
+html
+{
+	overflow-x: hidden;		/**OPD HReV15: to remove white space on right of the screen (horizontal scrollbar not displayed)**/
+}
+/**Look and Feel 16.1**/
+/*
+*
+{
+    font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+*/
+body
+{
+    font-size: 11px;
+}
+
+a, a *
+{
+    cursor: hand;
+    text-decoration: none;
+}
+a:hover, a:hover *
+{
+    text-decoration: underline;
+}
+
+input, select, textarea
+{
+    font-size: 100%;
+}
+
+div.table
+{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+div.table > div
+{
+    display: table-row;
+}
+div.table > div > div
+{
+    display: table-cell;
+    vertical-align: top;
+}
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    /*font-size: 71%;*/  /*OPD HreV15 - Standard DOCTYPE Mode*/
+}
+
+/*BEGIN [YOUVRAJ P]: adapt to smaller screen size*/
+.loginbox {
+	width: 30em;
+}
+
+.visible-phone { 
+	display: none;
+}
+
+/*END [YOUVRAJ P]*/

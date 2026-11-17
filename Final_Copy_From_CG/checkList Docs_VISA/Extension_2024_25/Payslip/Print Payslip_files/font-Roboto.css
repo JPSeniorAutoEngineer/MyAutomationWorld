@@ -1,0 +1,3253 @@
+﻿@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/300.woff') format('woff'), url('../fonts/300.woff2') format('woff2');
+    font-style: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/400.woff') format('woff'), url('../fonts/400.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../fonts/500.woff') format('woff'), url('../fonts/500.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/700.woff') format('woff'), url('../fonts/700.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icons8-copy:before,
+.icons8-edit:before,
+.icons8-undo:before,
+.icons8-compare:before,
+.icons8-create:before,
+.icons8-align-right:before,
+.icons8-align-justify:before,
+.icons8-align-center:before,
+.icons8-align-left:before,
+.icons8-align-top:before,
+.icons8-cut:before,
+.icons8-rotate:before,
+.icons8-page-overview-4:before,
+.icons8-thumbnails:before,
+.icons8-expand:before,
+.icons8-collapse:before,
+.icons8-resize-horizontal:before,
+.icons8-resize-diagonal:before,
+.icons8-resize-vertical:before,
+.icons8-compress:before,
+.icons8-chevron-right:before,
+.icons8-chevron-down:before,
+.icons8-chevron-left:before,
+.icons8-chevron-up:before,
+.icons8-date-to:before,
+.icons8-date-from:before,
+.icons8-date-span:before,
+.icons8-calendar:before,
+.icons8-today:before,
+.icons8-notification:before,
+.icons8-back:before,
+.icons8-forward:before,
+.icons8-double-right:before,
+.icons8-double-left:before,
+.icons8-double-up:before,
+.icons8-double-down:before,
+.icons8-sort-down:before,
+.icons8-sort:before,
+.icons8-sort-up:before,
+.icons8-sort-right:before,
+.icons8-sort-left:before,
+.icons8-car-service:before,
+.icons8-car-badge:before,
+.icons8-automatic-car-wash:before,
+.icons8-carpool:before,
+.icons8-bicycle:before,
+.icons8-motorcycle:before,
+.icons8-money-bag-euro:before,
+.icons8-money:before,
+.icons8-coins:before,
+.icons8-cash-in-hand:before,
+.icons8-receive-cash:before,
+.icons8-check:before,
+.icons8-donate:before,
+.icons8-euro-price-tag:before,
+.icons8-euro:before,
+.icons8-loyalty-card:before,
+.icons8-gift-card:before,
+.icons8-shop:before,
+.icons8-shopping-cart:before,
+.icons8-shopping-cart-loaded:before,
+.icons8-add-shopping-cart:before,
+.icons8-clear-shopping-cart:before,
+.icons8-speech-bubble:before,
+.icons8-gas-station:before,
+.icons8-train:before,
+.icons8-bus:before,
+.icons8-tram:before,
+.icons8-airport:before,
+.icons8-scooter:before,
+.icons8-traffic-jam:before,
+.icons8-parking:before,
+.icons8-segway:before,
+.icons8-park-and-charge:before,
+.icons8-tax:before,
+.icons8-request-money:before,
+.icons8-beach:before,
+.icons8-exercise:before,
+.icons8-cloud:before,
+.icons8-download-from-the-cloud:before,
+.icons8-upload-to-the-cloud:before,
+.icons8-cloud-checked:before,
+.icons8-error-cloud:before,
+.icons8-unavailable-cloud:before,
+.icons8-online-money-transfer:before,
+.icons8-glasses:before,
+.icons8-laptop:before,
+.icons8-imac:before,
+.icons8-iphone:before,
+.icons8-smartphone-tablet:before,
+.icons8-route:before,
+.icons8-ground-transportation:before,
+.icons8-waypoint-map:before,
+.icons8-monitor:before,
+.icons8-workstation:before,
+.icons8-shopping-bag:before,
+.icons8-multiple-devices:before,
+.icons8-ipad:before,
+.icons8-apple-watch:before,
+.icons8-sedan:before,
+.icons8-shuttle:before,
+.icons8-password:before,
+.icons8-menu:before,
+.icons8-shuffle:before,
+.icons8-clone:before,
+.icons8-contacts:before,
+.icons8-people:before,
+.icons8-message:before,
+.icons8-read-message:before,
+.icons8-send:before,
+.icons8-new-message:before,
+.icons8-info:before,
+.icons8-autograph:before,
+.icons8-download:before,
+.icons8-upload:before,
+.icons8-inbox:before,
+.icons8-document:before,
+.icons8-documents:before,
+.icons8-save:before,
+.icons8-file:before,
+.icons8-edit-file:before,
+.icons8-delete-file:before,
+.icons8-send-file:before,
+.icons8-multiply:before,
+.icons8-add:before,
+.icons8-settings:before,
+.icons8-collapse-arrow:before,
+.icons8-expand-arrow:before,
+.icons8-logout-rounded:before,
+.icons8-circled-right-2:before,
+ngb-datepicker .ngb-dp-arrow.right .ngb-dp-navigation-chevron:before,
+.icons8-circled-left-2:before,
+ngb-datepicker .ngb-dp-arrow .ngb-dp-navigation-chevron:before,
+.icons8-attention:before,
+.icons8-error:before,
+.icons8-search:before,
+.icons8-more-info:before,
+.icons8-why-us-male:before,
+.icons8-checkmark:before,
+.icons8-check-file:before,
+.icons8-checked-user-male:before,
+.icons8-test-passed:before,
+.icons8-tasklist:before,
+.icons8-synchronize:before,
+.icons8-checkout:before,
+.icons8-descending-sorting:before,
+.icons8-ascending-sorting:before,
+.icons8-user-credentials:before,
+.icons8-toggle-on:before,
+.icons8-toggle-off:before,
+.icons8-admin-settings-male:before,
+.icons8-nothing-found:before,
+.icons8-trash:before,
+.icons8-align-bottom:before,
+.icons8-paste:before,
+.icons8-clipboard:before,
+.icons8-refresh:before,
+.icons8-home:before,
+.icons8-pdf:before,
+.icons8-word:before,
+.icons8-microsoft-word:before,
+.icons8-microsoft-excel:before,
+.icons8-powerpoint-document:before,
+.icons8-xls:before,
+.icons8-day-view:before,
+.icons8-week-view:before,
+.icons8-month-view:before,
+.icons8-schedule:before,
+.icons8-to-do:before,
+.icons8-holiday:before,
+.icons8-forward-arrow:before,
+.icons8-outbox:before,
+.icons8-reply-all:before,
+.icons8-sms:before,
+.icons8-reply:before,
+.icons8-forward-message:before,
+.icons8-increase:before,
+.icons8-decrease:before,
+.icons8-purchase-order:before,
+.icons8-direction:before,
+.icons8-thumbs-down:before,
+.icons8-thumbs-up:before,
+.icons8-agreement:before,
+.icons8-approval:before,
+.icons8-checked:before,
+.icons8-lock:before,
+.icons8-padlock:before,
+.icons8-eye:before,
+.icons8-hide:before,
+.icons8-help-desk:before,
+.icons8-unavailable:before,
+.icons8-power-off:before,
+.icons8-bookmark-ribbon:before,
+.icons8-pin:before,
+.icons8-unpin:before,
+.icons8-attachment:before,
+.icons8-email:before,
+.icons8-cell-phone:before,
+.icons8-phone:before,
+.icons8-wrench:before,
+.icons8-open-pane:before,
+.icons8-close-pane:before,
+.icons8-external-link:before,
+.icons8-print:before,
+.icons8-details:before,
+.icons8-list:before,
+.icons8-star:before,
+.icons8-star-filled:before,
+.icons8-organization:before,
+.icons8-department:before,
+.icons8-manager:before,
+.icons8-factory:before,
+.icons8-more:before,
+.icons8-menu-2:before,
+.icons8-facebook:before,
+.icons8-twitter:before,
+.icons8-linkedin:before,
+.icons8-whatsapp:before,
+.icons8-google-plus:before,
+.icons8-camera:before,
+.icons8-facebook-messenger:before,
+.icons8-skype:before,
+.icons8-google:before,
+.icons8-apple-logo:before,
+.icons8-windows8:before,
+.icons8-video-file:before,
+.icons8-image-file:before,
+.icons8-dashboard:before,
+.icons8-graduation-cap:before,
+.icons8-accreditation:before,
+.icons8-course:before,
+.icons8-e-learning:before,
+.icons8-university:before,
+.icons8-diploma:before,
+.icons8-permanent-job:before,
+.icons8-budget:before,
+.icons8-book:before,
+.icons8-contacts-book:before,
+.icons8-plus-math:before,
+.icons8-id-card:before,
+.icons8-process:before,
+.icons8-workflow:before,
+.icons8-flow-chart:before,
+.icons8-pie-chart:before,
+.icons8-bar-chart:before,
+.icons8-filter:before,
+.icons8-clear-filters:before,
+.icons8-password-1:before,
+.icons8-team:before,
+.icons8-microsoft-project:before,
+.icons8-microsoft-onenote:before,
+.icons8-microsoft-powerpoint:before,
+.icons8-calculator:before,
+.icons8-right:before,
+.icons8-left:before,
+.icons8-in-progress:before,
+.icons8-new:before,
+.icons8-add-file:before,
+.icons8-serenade:before,
+.icons8-pie-chart-report:before,
+.icons8-content:before,
+.icons8-world-globe:before,
+.icons8-youtube-play-button-logo:before,
+.icons8-briefcase:before,
+.icons8-gear-outline:before,
+.icons8-wireless-network:before,
+.icons8-human-resource:before,
+.icons8-easel:before,
+.icons8-tasks:before,
+.icons8-new-job:before,
+.icons8-submit-resume:before,
+.icons8-workspace:before,
+.icons8-server:before,
+.icons8-connected:before,
+.icons8-broadcasting:before,
+.icons8-exchange:before,
+.icons8-administrative-tools:before,
+.icons8-disconnected:before,
+.icons8-world-wide-web:before,
+.icons8-crowd-of-people:before,
+.icons8-conference:before,
+.icons8-task-completed-in-time:before,
+.icons8-form:before,
+.icons8-brief:before,
+.icons8-presentation:before,
+.icons8-save-archive:before,
+.icons8-overview:before,
+.icons8-news-feed:before,
+.icons8-archived-data:before,
+.icons8-link:before,
+.icons8-delete-link:before,
+.icons8-female-user:before,
+.icons8-user-male:before,
+.icons8-folder-with-a-user-symbol:before,
+.icons8-news:before,
+.icons8-verified-account:before,
+.icons8-folder:before,
+.icons8-open:before,
+.icons8-advanced-search:before,
+.icons8-search-folder:before,
+.icons8-search-contacts:before,
+.icons8-close-all-tabs:before,
+.icons8-new-company:before,
+.icons8-person-at-home:before,
+.icons8-computers-connecting:before,
+.icons8-graph-report:before,
+.icons8-filled-bookmark-ribbon:before,
+.icons8-pause-button:before,
+.icons8-parallel-workflow:before,
+.icons8-no-synchronize:before,
+.icons8-day-off:before,
+.icons8-pulse:before,
+.icons8-connect:before,
+.icons8-delete-folder:before,
+.icons8-profit:before,
+.icons8-send-email:before,
+.icons8-chat-bubble:before,
+.icons8-ellipsis:before,
+.icons8-add-to-favorites:before,
+.icons8-add-link:before,
+.icons8-home-address:before,
+.icons8-man-answering-a-question:before,
+.icons8-measurement-scale:before,
+.icons8-business-building:before,
+.icons8-app-windows:before,
+.icons8-air-play-button:before,
+.icons8-resume-button:before,
+.icons8-multicast:before,
+.icons8-list-of-thumbnails:before,
+.icons8-app-symbol:before,
+.icons8-analyze:before,
+.icons8-bar-chart-and-polyline:before,
+.icons8-line-chart:before,
+.icons8-area-chart:before,
+.icons8-stocks:before,
+.icons8-heat-map:before,
+.icons8-being-sick:before,
+.icons8-rules:before,
+.icons8-management:before,
+.icons8-public-announcement:before,
+.icons8-grid:before,
+.icons8-grid-view:before,
+.icons8-indent:before,
+.icons8-apply:before,
+.icons8-comments:before,
+.icons8-circled-play:before,
+.icons8-launchpad:before,
+.icons8-play:before,
+.icons8-mute:before,
+.icons8-speaker:before,
+.icons8-tv:before,
+.icons8-pause-button-2:before,
+.icons8-skip-this-track:before,
+.icons8-previous-track:before,
+.icons8-donation:before,
+.icons8-search-more:before,
+.icons8-add-user-male:before,
+.icons8-add-user-group-man-man:before,
+.icons8-import:before,
+.icons8-add-search:before,
+.icons8-add-text:before,
+.icons8-calendar-plus:before,
+.icons8-buy:before,
+.icons8-map:before,
+.icons8-feed-in:before,
+.icons8-export:before,
+.icons8-doc:before,
+.icons8-shipped:before,
+.icons8-user-with-a-magnifying-glass:before,
+.icons8-xml:before,
+.icons8-resume:before,
+.icons8-invisible:before,
+.icons8-playstore:before,
+.icons8-security-ssl:before,
+.icons8-data-transfer:before,
+.icons8-blog:before,
+.icons8-open-book:before,
+.icons8-knowledge-source:before,
+.icons8-artificial-intelligence:before,
+.icons8-brain-storming:before,
+.icons8-building-outline:before,
+.icons8-construction-worker:before,
+.icons8-business-card:before,
+.icons8-business-hierarchy:before,
+.icons8-accounting:before,
+.icons8-online-support:before,
+.icons8-training:before,
+.icons8-collaboration:before,
+.icons8-routine-work:before,
+.icons8-feedback:before,
+.icons8-clipboard-checklist:before,
+.icons8-badge:before,
+.icons8-timeline:before,
+.icons8-tree-structure:before,
+.icons8-video-conference:before,
+.icons8-invite:before,
+.icons8-reseller:before,
+.icons8-signature:before,
+.icons8-job-seeker:before,
+.icons8-set-as-resume:before,
+.icons8-remove-ads:before,
+.icons8-mockup:before,
+.icons8-study:before,
+.icons8-brochure:before,
+.icons8-questionnaire:before,
+.icons8-business-card-2:before,
+.icons8-sustainability:before,
+.icons8-network-drive:before,
+.icons8-versions:before,
+.icons8-average-2:before,
+.icons8-expensive-price:before,
+.icons8-columns:before,
+.icons8-success-and-failure:before,
+.icons8-conference-foreground-selected:before,
+.icons8-percentage-sign:before,
+.icons8-1:before,
+.icons8-2:before,
+.icons8-3:before,
+.icons8-4:before,
+.icons8-5:before,
+.icons8-6:before,
+.icons8-number-seven:before,
+.icons8-number-eight:before,
+.icons8-9:before,
+.icons8-less-or-equal:before,
+.icons8-more-or-equal:before,
+.icons8-approximately-equal:before,
+.icons8-leave:before,
+.icons8-year-view:before,
+.icons8-event:before,
+.icons8-call-center:before,
+.icons8-sleeping-in-bed:before,
+.icons8-deleted-message:before,
+.icons8-chat-blocked:before,
+.icons8-delete-chat:before,
+.icons8-chat:before,
+.icons8-replace:before,
+.icons8-chat-2:before,
+.icons8-received:before,
+.icons8-group-message:before,
+.icons8-road-worker:before,
+.icons8-clock:before,
+.icons8-hands-in-a-handshake:before,
+.icons8-clock-outline:before,
+.icons8-alarm-clock:before,
+.icons8-clock-2:before,
+.icons8-add-property:before,
+.icons8-credit-card:before,
+.icons8-hand-holding-card:before,
+.icons8-dashboard-2:before,
+.icons8-ftp:before,
+.icons8-upload-symbol:before,
+.icons8-download-from-ftp:before,
+.icons8-navigation-pane:before,
+.icons8-data-grid:before,
+.icons8-data-sheet:before,
+.icons8-doughnut-chart:before,
+.icons8-system-task:before,
+.icons8-archived-data-2:before,
+.icons8-statistics:before,
+.icons8-fingerprint:before,
+.icons8-api:before,
+.icons8-merge-git:before,
+.icons8-order-history:before,
+.icons8-loyalty:before,
+.icons8-receipt:before,
+.icons8-tiles:before,
+.icons8-no-edit:before,
+.icons8-education:before,
+.icons8-student-center:before,
+.icons8-zip-file:before,
+.icons8-filter-2:before,
+.icons8-keyboard:before,
+.icons8-mouse:before,
+.icons8-computer-mouse-outline:before,
+.icons8-mouse-right-click:before,
+.icons8-computer-mouse-outline-2:before,
+.icons8-swipe-right:before,
+.icons8-swipe-up:before,
+.icons8-swipe-down:before,
+.icons8-swipe-left:before,
+.icons8-profile:before,
+.icons8-product:before,
+.icons8-tracking:before,
+.icons8-qr-code:before,
+.icons8-work-in-bed:before,
+.icons8-outdent:before,
+.icons8-transaction-list:before,
+.icons8-stop-symbol:before,
+.icons8-fast-forward-symbol:before,
+.icons8-previous-track-2:before,
+.icons8-outline-of-a-circle:before,
+.icons8-view-more:before,
+.icons8-thumbnail-view:before,
+.icons8-id-verified:before,
+.icons8-id-not-verified:before,
+.icons8-thumbnail-view-2:before,
+.icons8-bookmark:before,
+.icons8-ship-wheel:before,
+.icons8-browser-history:before,
+.icons8-stop-hand-in-a-circle:before,
+.icons8-lock-orientation:before,
+.icons8-loader:before,
+.icons8-navigation-toolbar-left:before,
+.icons8-mushroom-cloud:before,
+.icons8-trust:before,
+.icons8-medical-doctor:before,
+.icons8-birthday:before,
+.icons8-guarantee:before,
+.icons8-idea-bank:before,
+.icons8-compose:before,
+.icons8-fill-drip:before,
+.icons8-group-objects:before,
+.icons8-rocket:before,
+.icons8-email-send:before,
+.icons8-heart-with-arrow:before,
+.icons8-alert:before,
+.icons8-alarm:before,
+.icons8-time-limit:before,
+.icons8-user-manual:before,
+.icons8-male:before,
+.icons8-couple:before,
+.icons8-snow:before,
+.icons8-laptop-settings:before,
+.icons8-file-settings:before,
+.icons8-adjust:before,
+.icons8-change-user:before,
+.icons8-touchscreen:before,
+.icons8-family:before,
+.icons8-guardian:before,
+.icons8-car-rental:before,
+.icons8-van:before,
+.icons8-float:before,
+.icons8-running:before,
+.icons8-mail-filter:before,
+.icons8-company:before,
+.icons8-audit:before,
+.icons8-female:before,
+.icons8-male-and-female:before,
+.icons8-transgender:before,
+.icons8-macbook-settings:before,
+.icons8-searchlight:before,
+.icons8-important-event:before,
+.icons8-report-card:before,
+.icons8-arrow-up:before,
+.icons8-u-turn-to-left:before,
+.icons8-box-important:before,
+.icons8-transaction:before,
+.icons8-stock-share:before,
+.icons8-cutlery:before,
+.icons8-home-office:before,
+.icons8-suitcase:before,
+.icons8-business-group:before,
+.icons8-sales-performance:before,
+.icons8-car:before,
+.icons8-address:before,
+.icons8-location:before,
+.icons8-map-marker:before,
+.icons8-europe:before,
+.icons8-language:before,
+.icons8-language-skill:before,
+.icons8-toggle-full-screen:before,
+.icons8-delete:before,
+.icons8-redo:before,
+.icons8-reboot:before,
+.icons8-final-state:before,
+.icons8-marker:before,
+.icons8-important-month:before,
+.icons8-maintenance-date:before,
+.icons8-pay-date:before,
+.icons8-cancel:before,
+.icons8-view-column:before,
+.icons8-note:before,
+.icons8-family-2:before,
+.icons8-database-view:before,
+.icons8-minimize-window:before,
+.icons8-csv:before,
+.icons8-pdf-2:before,
+.icons8-inactive-state:before,
+.icons8-active-state:before,
+.icons8-initial-state:before,
+.icons8-leaf:before,
+.icons8-food:before,
+.icons8-receipt-and-change:before,
+.icons8-space-before-paragraph:before,
+.icons8-up-arrow:before,
+.icons8-down-arrow:before,
+.icons8-up:before,
+.icons8-down:before,
+.icons8-down-button:before,
+.icons8-business-report:before,
+.icons8-stopwatch:before,
+.icons8-briefcase-settings:before,
+.icons8-task-completed:before,
+.icons8-grid-2:before,
+.icons8-plus:before,
+.icons8-profile-2:before,
+.icons8-paper-money:before,
+.icons8-brick:before,
+.icons8-no-entry:before,
+.icons8-receive-dollar:before,
+.icons8-stack-of-money:before,
+.icons8-macos-close:before,
+.icons8-mail:before,
+.icons8-heart:before,
+.icons8-repeat:before,
+.icons8-users-settings:before,
+.icons8-money-transfer:before,
+.icons8-bill:before,
+.icons8-tune:before,
+.icons8-cash:before,
+.icons8-wallet:before,
+.icons8-receive-euro:before,
+.icons8-check-for-payment:before,
+.icons8-ok:before,
+.icons8-error-2:before,
+.icons8-box-important-2:before,
+.icons8-info-2:before,
+.icons8-ok-2:before,
+.icons8-lowercase:before,
+.icons8-typography:before,
+.icons8-slide-up:before,
+.icons8-group:before,
+.icons8-negative:before,
+.icons8-sum:before,
+.icons8-font-awesome-flag:before,
+.icons8-minus:before,
+.icons8-subtract:before,
+.icons8-line:before,
+.icons8-ambulance:before,
+.icons8-leaf-2:before,
+.icons8-ecology:before,
+.icons8-cancel-2:before,
+.icons8-chevron-down-2:before,
+.icons8-chevron-right-2:before,
+.icons8-chevron-left-2:before,
+.icons8-chevron-up-2:before,
+.icons8-eraser:before,
+.icons8-picture:before,
+.icons8-happy:before,
+[data-icons8]:before {
+    display: inline-block;
+    font-family: "sdwds-icons8";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+[data-icons8]:before {
+    content: attr(data-icons8);
+}
+
+.icons8-copy:before {
+    content: "\f100";
+}
+
+.icons8-edit:before {
+    content: "\f101";
+}
+
+.icons8-undo:before {
+    content: "\f102";
+}
+
+.icons8-compare:before {
+    content: "\f103";
+}
+
+.icons8-create:before {
+    content: "\f104";
+}
+
+.icons8-align-right:before {
+    content: "\f105";
+}
+
+.icons8-align-justify:before {
+    content: "\f106";
+}
+
+.icons8-align-center:before {
+    content: "\f107";
+}
+
+.icons8-align-left:before {
+    content: "\f108";
+}
+
+.icons8-align-top:before {
+    content: "\f109";
+}
+
+.icons8-cut:before {
+    content: "\f10a";
+}
+
+.icons8-rotate:before {
+    content: "\f10b";
+}
+
+.icons8-page-overview-4:before {
+    content: "\f10c";
+}
+
+.icons8-thumbnails:before {
+    content: "\f10d";
+}
+
+.icons8-expand:before {
+    content: "\f10e";
+}
+
+.icons8-collapse:before {
+    content: "\f10f";
+}
+
+.icons8-resize-horizontal:before {
+    content: "\f110";
+}
+
+.icons8-resize-diagonal:before {
+    content: "\f111";
+}
+
+.icons8-resize-vertical:before {
+    content: "\f112";
+}
+
+.icons8-compress:before {
+    content: "\f113";
+}
+
+.icons8-chevron-right:before {
+    content: "\f114";
+}
+
+.icons8-chevron-down:before {
+    content: "\f115";
+}
+
+.icons8-chevron-left:before {
+    content: "\f116";
+}
+
+.icons8-chevron-up:before {
+    content: "\f117";
+}
+
+.icons8-date-to:before {
+    content: "\f118";
+}
+
+.icons8-date-from:before {
+    content: "\f119";
+}
+
+.icons8-date-span:before {
+    content: "\f11a";
+}
+
+.icons8-calendar:before {
+    content: "\f11b";
+}
+
+.icons8-today:before {
+    content: "\f11c";
+}
+
+.icons8-notification:before {
+    content: "\f11d";
+}
+
+.icons8-back:before {
+    content: "\f11e";
+}
+
+.icons8-forward:before {
+    content: "\f11f";
+}
+
+.icons8-double-right:before {
+    content: "\f120";
+}
+
+.icons8-double-left:before {
+    content: "\f121";
+}
+
+.icons8-double-up:before {
+    content: "\f122";
+}
+
+.icons8-double-down:before {
+    content: "\f123";
+}
+
+.icons8-sort-down:before {
+    content: "\f124";
+}
+
+.icons8-sort:before {
+    content: "\f125";
+}
+
+.icons8-sort-up:before {
+    content: "\f126";
+}
+
+.icons8-sort-right:before {
+    content: "\f127";
+}
+
+.icons8-sort-left:before {
+    content: "\f128";
+}
+
+.icons8-car-service:before {
+    content: "\f129";
+}
+
+.icons8-car-badge:before {
+    content: "\f12a";
+}
+
+.icons8-automatic-car-wash:before {
+    content: "\f12b";
+}
+
+.icons8-carpool:before {
+    content: "\f12c";
+}
+
+.icons8-bicycle:before {
+    content: "\f12d";
+}
+
+.icons8-motorcycle:before {
+    content: "\f12e";
+}
+
+.icons8-money-bag-euro:before {
+    content: "\f12f";
+}
+
+.icons8-money:before {
+    content: "\f130";
+}
+
+.icons8-coins:before {
+    content: "\f131";
+}
+
+.icons8-cash-in-hand:before {
+    content: "\f132";
+}
+
+.icons8-receive-cash:before {
+    content: "\f133";
+}
+
+.icons8-check:before {
+    content: "\f134";
+}
+
+.icons8-donate:before {
+    content: "\f135";
+}
+
+.icons8-euro-price-tag:before {
+    content: "\f136";
+}
+
+.icons8-euro:before {
+    content: "\f137";
+}
+
+.icons8-loyalty-card:before {
+    content: "\f138";
+}
+
+.icons8-gift-card:before {
+    content: "\f139";
+}
+
+.icons8-shop:before {
+    content: "\f13a";
+}
+
+.icons8-shopping-cart:before {
+    content: "\f13b";
+}
+
+.icons8-shopping-cart-loaded:before {
+    content: "\f13c";
+}
+
+.icons8-add-shopping-cart:before {
+    content: "\f13d";
+}
+
+.icons8-clear-shopping-cart:before {
+    content: "\f13e";
+}
+
+.icons8-speech-bubble:before {
+    content: "\f13f";
+}
+
+.icons8-gas-station:before {
+    content: "\f140";
+}
+
+.icons8-train:before {
+    content: "\f141";
+}
+
+.icons8-bus:before {
+    content: "\f142";
+}
+
+.icons8-tram:before {
+    content: "\f143";
+}
+
+.icons8-airport:before {
+    content: "\f144";
+}
+
+.icons8-scooter:before {
+    content: "\f145";
+}
+
+.icons8-traffic-jam:before {
+    content: "\f146";
+}
+
+.icons8-parking:before {
+    content: "\f147";
+}
+
+.icons8-segway:before {
+    content: "\f148";
+}
+
+.icons8-park-and-charge:before {
+    content: "\f149";
+}
+
+.icons8-tax:before {
+    content: "\f14a";
+}
+
+.icons8-request-money:before {
+    content: "\f14b";
+}
+
+.icons8-beach:before {
+    content: "\f14c";
+}
+
+.icons8-exercise:before {
+    content: "\f14d";
+}
+
+.icons8-cloud:before {
+    content: "\f14e";
+}
+
+.icons8-download-from-the-cloud:before {
+    content: "\f14f";
+}
+
+.icons8-upload-to-the-cloud:before {
+    content: "\f150";
+}
+
+.icons8-cloud-checked:before {
+    content: "\f151";
+}
+
+.icons8-error-cloud:before {
+    content: "\f152";
+}
+
+.icons8-unavailable-cloud:before {
+    content: "\f153";
+}
+
+.icons8-online-money-transfer:before {
+    content: "\f154";
+}
+
+.icons8-glasses:before {
+    content: "\f155";
+}
+
+.icons8-laptop:before {
+    content: "\f156";
+}
+
+.icons8-imac:before {
+    content: "\f157";
+}
+
+.icons8-iphone:before {
+    content: "\f158";
+}
+
+.icons8-smartphone-tablet:before {
+    content: "\f159";
+}
+
+.icons8-route:before {
+    content: "\f15a";
+}
+
+.icons8-ground-transportation:before {
+    content: "\f15b";
+}
+
+.icons8-waypoint-map:before {
+    content: "\f15c";
+}
+
+.icons8-monitor:before {
+    content: "\f15d";
+}
+
+.icons8-workstation:before {
+    content: "\f15e";
+}
+
+.icons8-shopping-bag:before {
+    content: "\f15f";
+}
+
+.icons8-multiple-devices:before {
+    content: "\f160";
+}
+
+.icons8-ipad:before {
+    content: "\f161";
+}
+
+.icons8-apple-watch:before {
+    content: "\f162";
+}
+
+.icons8-sedan:before {
+    content: "\f163";
+}
+
+.icons8-shuttle:before {
+    content: "\f164";
+}
+
+.icons8-password:before {
+    content: "\f165";
+}
+
+.icons8-menu:before {
+    content: "\f166";
+}
+
+.icons8-shuffle:before {
+    content: "\f167";
+}
+
+.icons8-clone:before {
+    content: "\f168";
+}
+
+.icons8-contacts:before {
+    content: "\f169";
+}
+
+.icons8-people:before {
+    content: "\f16a";
+}
+
+.icons8-message:before {
+    content: "\f16b";
+}
+
+.icons8-read-message:before {
+    content: "\f16c";
+}
+
+.icons8-send:before {
+    content: "\f16d";
+}
+
+.icons8-new-message:before {
+    content: "\f16e";
+}
+
+.icons8-info:before {
+    content: "\f16f";
+}
+
+.icons8-autograph:before {
+    content: "\f170";
+}
+
+.icons8-download:before {
+    content: "\f171";
+}
+
+.icons8-upload:before {
+    content: "\f172";
+}
+
+.icons8-inbox:before {
+    content: "\f173";
+}
+
+.icons8-document:before {
+    content: "\f174";
+}
+
+.icons8-documents:before {
+    content: "\f175";
+}
+
+.icons8-save:before {
+    content: "\f176";
+}
+
+.icons8-file:before {
+    content: "\f177";
+}
+
+.icons8-edit-file:before {
+    content: "\f178";
+}
+
+.icons8-delete-file:before {
+    content: "\f179";
+}
+
+.icons8-send-file:before {
+    content: "\f17a";
+}
+
+.icons8-multiply:before {
+    content: "\f17b";
+}
+
+.icons8-add:before {
+    content: "\f17c";
+}
+
+.icons8-settings:before {
+    content: "\f17d";
+}
+
+.icons8-collapse-arrow:before {
+    content: "\f17e";
+}
+
+.icons8-expand-arrow:before {
+    content: "\f17f";
+}
+
+.icons8-logout-rounded:before {
+    content: "\f180";
+}
+
+.icons8-circled-right-2:before, ngb-datepicker .ngb-dp-arrow.right .ngb-dp-navigation-chevron:before {
+    content: "\f181";
+}
+
+.icons8-circled-left-2:before, ngb-datepicker .ngb-dp-arrow .ngb-dp-navigation-chevron:before {
+    content: "\f182";
+}
+
+.icons8-attention:before {
+    content: "\f183";
+}
+
+.icons8-error:before {
+    content: "\f184";
+}
+
+.icons8-search:before {
+    content: "\f185";
+}
+
+.icons8-more-info:before {
+    content: "\f186";
+}
+
+.icons8-why-us-male:before {
+    content: "\f187";
+}
+
+.icons8-checkmark:before {
+    content: "\f188";
+}
+
+.icons8-check-file:before {
+    content: "\f18a";
+}
+
+.icons8-checked-user-male:before {
+    content: "\f18b";
+}
+
+.icons8-test-passed:before {
+    content: "\f18c";
+}
+
+.icons8-tasklist:before {
+    content: "\f18d";
+}
+
+.icons8-synchronize:before {
+    content: "\f18e";
+}
+
+.icons8-checkout:before {
+    content: "\f18f";
+}
+
+.icons8-descending-sorting:before {
+    content: "\f190";
+}
+
+.icons8-ascending-sorting:before {
+    content: "\f191";
+}
+
+.icons8-user-credentials:before {
+    content: "\f192";
+}
+
+.icons8-toggle-on:before {
+    content: "\f193";
+}
+
+.icons8-toggle-off:before {
+    content: "\f194";
+}
+
+.icons8-admin-settings-male:before {
+    content: "\f195";
+}
+
+.icons8-nothing-found:before {
+    content: "\f196";
+}
+
+.icons8-trash:before {
+    content: "\f197";
+}
+
+.icons8-align-bottom:before {
+    content: "\f198";
+}
+
+.icons8-paste:before {
+    content: "\f199";
+}
+
+.icons8-clipboard:before {
+    content: "\f19a";
+}
+
+.icons8-refresh:before {
+    content: "\f19b";
+}
+
+.icons8-home:before {
+    content: "\f19c";
+}
+
+.icons8-pdf:before {
+    content: "\f19d";
+}
+
+.icons8-word:before {
+    content: "\f19e";
+}
+
+.icons8-microsoft-word:before {
+    content: "\f19f";
+}
+
+.icons8-microsoft-excel:before {
+    content: "\f1a0";
+}
+
+.icons8-powerpoint-document:before {
+    content: "\f1a1";
+}
+
+.icons8-xls:before {
+    content: "\f1a2";
+}
+
+.icons8-day-view:before {
+    content: "\f1a3";
+}
+
+.icons8-week-view:before {
+    content: "\f1a4";
+}
+
+.icons8-month-view:before {
+    content: "\f1a5";
+}
+
+.icons8-schedule:before {
+    content: "\f1a6";
+}
+
+.icons8-to-do:before {
+    content: "\f1a7";
+}
+
+.icons8-holiday:before {
+    content: "\f1a8";
+}
+
+.icons8-forward-arrow:before {
+    content: "\f1a9";
+}
+
+.icons8-outbox:before {
+    content: "\f1aa";
+}
+
+.icons8-reply-all:before {
+    content: "\f1ab";
+}
+
+.icons8-sms:before {
+    content: "\f1ac";
+}
+
+.icons8-reply:before {
+    content: "\f1ad";
+}
+
+.icons8-forward-message:before {
+    content: "\f1ae";
+}
+
+.icons8-increase:before {
+    content: "\f1af";
+}
+
+.icons8-decrease:before {
+    content: "\f1b0";
+}
+
+.icons8-purchase-order:before {
+    content: "\f1b1";
+}
+
+.icons8-direction:before {
+    content: "\f1b2";
+}
+
+.icons8-thumbs-down:before {
+    content: "\f1b3";
+}
+
+.icons8-thumbs-up:before {
+    content: "\f1b4";
+}
+
+.icons8-agreement:before {
+    content: "\f1b5";
+}
+
+.icons8-approval:before {
+    content: "\f1b6";
+}
+
+.icons8-checked:before {
+    content: "\f1b7";
+}
+
+.icons8-lock:before {
+    content: "\f1b8";
+}
+
+.icons8-padlock:before {
+    content: "\f1b9";
+}
+
+.icons8-eye:before {
+    content: "\f1ba";
+}
+
+.icons8-hide:before {
+    content: "\f1bb";
+}
+
+.icons8-help-desk:before {
+    content: "\f1bc";
+}
+
+.icons8-unavailable:before {
+    content: "\f1bd";
+}
+
+.icons8-power-off:before {
+    content: "\f1be";
+}
+
+.icons8-bookmark-ribbon:before {
+    content: "\f1bf";
+}
+
+.icons8-pin:before {
+    content: "\f1c0";
+}
+
+.icons8-unpin:before {
+    content: "\f1c1";
+}
+
+.icons8-attachment:before {
+    content: "\f1c2";
+}
+
+.icons8-email:before {
+    content: "\f1c3";
+}
+
+.icons8-cell-phone:before {
+    content: "\f1c4";
+}
+
+.icons8-phone:before {
+    content: "\f1c5";
+}
+
+.icons8-wrench:before {
+    content: "\f1c6";
+}
+
+.icons8-open-pane:before {
+    content: "\f1c7";
+}
+
+.icons8-close-pane:before {
+    content: "\f1c8";
+}
+
+.icons8-external-link:before {
+    content: "\f1c9";
+}
+
+.icons8-print:before {
+    content: "\f1ca";
+}
+
+.icons8-details:before {
+    content: "\f1cb";
+}
+
+.icons8-list:before {
+    content: "\f1cc";
+}
+
+.icons8-star:before {
+    content: "\f1cd";
+}
+
+.icons8-star-filled:before {
+    content: "\f1ce";
+}
+
+.icons8-organization:before {
+    content: "\f1cf";
+}
+
+.icons8-department:before {
+    content: "\f1d0";
+}
+
+.icons8-manager:before {
+    content: "\f1d1";
+}
+
+.icons8-factory:before {
+    content: "\f1d2";
+}
+
+.icons8-more:before {
+    content: "\f1d3";
+}
+
+.icons8-menu-2:before {
+    content: "\f1d4";
+}
+
+.icons8-facebook:before {
+    content: "\f1d5";
+}
+
+.icons8-twitter:before {
+    content: "\f1d6";
+}
+
+.icons8-linkedin:before {
+    content: "\f1d7";
+}
+
+.icons8-whatsapp:before {
+    content: "\f1d8";
+}
+
+.icons8-google-plus:before {
+    content: "\f1d9";
+}
+
+.icons8-camera:before {
+    content: "\f1da";
+}
+
+.icons8-facebook-messenger:before {
+    content: "\f1db";
+}
+
+.icons8-skype:before {
+    content: "\f1dc";
+}
+
+.icons8-google:before {
+    content: "\f1dd";
+}
+
+.icons8-apple-logo:before {
+    content: "\f1de";
+}
+
+.icons8-windows8:before {
+    content: "\f1df";
+}
+
+.icons8-video-file:before {
+    content: "\f1e0";
+}
+
+.icons8-image-file:before {
+    content: "\f1e1";
+}
+
+.icons8-dashboard:before {
+    content: "\f1e2";
+}
+
+.icons8-graduation-cap:before {
+    content: "\f1e3";
+}
+
+.icons8-accreditation:before {
+    content: "\f1e4";
+}
+
+.icons8-course:before {
+    content: "\f1e5";
+}
+
+.icons8-e-learning:before {
+    content: "\f1e6";
+}
+
+.icons8-university:before {
+    content: "\f1e7";
+}
+
+.icons8-diploma:before {
+    content: "\f1e8";
+}
+
+.icons8-permanent-job:before {
+    content: "\f1e9";
+}
+
+.icons8-budget:before {
+    content: "\f1ea";
+}
+
+.icons8-book:before {
+    content: "\f1eb";
+}
+
+.icons8-contacts-book:before {
+    content: "\f1ec";
+}
+
+.icons8-plus-math:before {
+    content: "\f1ed";
+}
+
+.icons8-id-card:before {
+    content: "\f1ee";
+}
+
+.icons8-process:before {
+    content: "\f1ef";
+}
+
+.icons8-workflow:before {
+    content: "\f1f0";
+}
+
+.icons8-flow-chart:before {
+    content: "\f1f1";
+}
+
+.icons8-pie-chart:before {
+    content: "\f1f2";
+}
+
+.icons8-bar-chart:before {
+    content: "\f1f3";
+}
+
+.icons8-filter:before {
+    content: "\f1f4";
+}
+
+.icons8-clear-filters:before {
+    content: "\f1f5";
+}
+
+.icons8-password-1:before {
+    content: "\f1f6";
+}
+
+.icons8-team:before {
+    content: "\f1f7";
+}
+
+.icons8-microsoft-project:before {
+    content: "\f1f8";
+}
+
+.icons8-microsoft-onenote:before {
+    content: "\f1f9";
+}
+
+.icons8-microsoft-powerpoint:before {
+    content: "\f1fa";
+}
+
+.icons8-calculator:before {
+    content: "\f1fb";
+}
+
+.icons8-right:before {
+    content: "\f1fc";
+}
+
+.icons8-left:before {
+    content: "\f1fd";
+}
+
+.icons8-in-progress:before {
+    content: "\f1fe";
+}
+
+.icons8-new:before {
+    content: "\f1ff";
+}
+
+.icons8-add-file:before {
+    content: "\f200";
+}
+
+.icons8-serenade:before {
+    content: "\f201";
+}
+
+.icons8-pie-chart-report:before {
+    content: "\f202";
+}
+
+.icons8-content:before {
+    content: "\f203";
+}
+
+.icons8-world-globe:before {
+    content: "\f204";
+}
+
+.icons8-youtube-play-button-logo:before {
+    content: "\f205";
+}
+
+.icons8-briefcase:before {
+    content: "\f206";
+}
+
+.icons8-gear-outline:before {
+    content: "\f207";
+}
+
+.icons8-wireless-network:before {
+    content: "\f208";
+}
+
+.icons8-human-resource:before {
+    content: "\f209";
+}
+
+.icons8-easel:before {
+    content: "\f20a";
+}
+
+.icons8-tasks:before {
+    content: "\f20b";
+}
+
+.icons8-new-job:before {
+    content: "\f20c";
+}
+
+.icons8-submit-resume:before {
+    content: "\f20d";
+}
+
+.icons8-workspace:before {
+    content: "\f20e";
+}
+
+.icons8-server:before {
+    content: "\f20f";
+}
+
+.icons8-connected:before {
+    content: "\f210";
+}
+
+.icons8-broadcasting:before {
+    content: "\f211";
+}
+
+.icons8-exchange:before {
+    content: "\f212";
+}
+
+.icons8-administrative-tools:before {
+    content: "\f213";
+}
+
+.icons8-disconnected:before {
+    content: "\f214";
+}
+
+.icons8-world-wide-web:before {
+    content: "\f215";
+}
+
+.icons8-crowd-of-people:before {
+    content: "\f216";
+}
+
+.icons8-conference:before {
+    content: "\f217";
+}
+
+.icons8-task-completed-in-time:before {
+    content: "\f218";
+}
+
+.icons8-form:before {
+    content: "\f219";
+}
+
+.icons8-brief:before {
+    content: "\f21a";
+}
+
+.icons8-presentation:before {
+    content: "\f21b";
+}
+
+.icons8-save-archive:before {
+    content: "\f21c";
+}
+
+.icons8-overview:before {
+    content: "\f21d";
+}
+
+.icons8-news-feed:before {
+    content: "\f21e";
+}
+
+.icons8-archived-data:before {
+    content: "\f21f";
+}
+
+.icons8-link:before {
+    content: "\f220";
+}
+
+.icons8-delete-link:before {
+    content: "\f221";
+}
+
+.icons8-female-user:before {
+    content: "\f222";
+}
+
+.icons8-user-male:before {
+    content: "\f223";
+}
+
+.icons8-folder-with-a-user-symbol:before {
+    content: "\f224";
+}
+
+.icons8-news:before {
+    content: "\f225";
+}
+
+.icons8-verified-account:before {
+    content: "\f226";
+}
+
+.icons8-folder:before {
+    content: "\f227";
+}
+
+.icons8-open:before {
+    content: "\f228";
+}
+
+.icons8-advanced-search:before {
+    content: "\f229";
+}
+
+.icons8-search-folder:before {
+    content: "\f22a";
+}
+
+.icons8-search-contacts:before {
+    content: "\f22b";
+}
+
+.icons8-close-all-tabs:before {
+    content: "\f22c";
+}
+
+.icons8-new-company:before {
+    content: "\f22d";
+}
+
+.icons8-person-at-home:before {
+    content: "\f22e";
+}
+
+.icons8-computers-connecting:before {
+    content: "\f22f";
+}
+
+.icons8-graph-report:before {
+    content: "\f230";
+}
+
+.icons8-filled-bookmark-ribbon:before {
+    content: "\f231";
+}
+
+.icons8-pause-button:before {
+    content: "\f232";
+}
+
+.icons8-parallel-workflow:before {
+    content: "\f233";
+}
+
+.icons8-no-synchronize:before {
+    content: "\f234";
+}
+
+.icons8-day-off:before {
+    content: "\f235";
+}
+
+.icons8-pulse:before {
+    content: "\f236";
+}
+
+.icons8-connect:before {
+    content: "\f237";
+}
+
+.icons8-delete-folder:before {
+    content: "\f238";
+}
+
+.icons8-profit:before {
+    content: "\f239";
+}
+
+.icons8-send-email:before {
+    content: "\f23a";
+}
+
+.icons8-chat-bubble:before {
+    content: "\f23b";
+}
+
+.icons8-ellipsis:before {
+    content: "\f23c";
+}
+
+.icons8-add-to-favorites:before {
+    content: "\f23d";
+}
+
+.icons8-add-link:before {
+    content: "\f23e";
+}
+
+.icons8-home-address:before {
+    content: "\f23f";
+}
+
+.icons8-man-answering-a-question:before {
+    content: "\f241";
+}
+
+.icons8-measurement-scale:before {
+    content: "\f242";
+}
+
+.icons8-business-building:before {
+    content: "\f243";
+}
+
+.icons8-app-windows:before {
+    content: "\f244";
+}
+
+.icons8-air-play-button:before {
+    content: "\f245";
+}
+
+.icons8-resume-button:before {
+    content: "\f246";
+}
+
+.icons8-multicast:before {
+    content: "\f247";
+}
+
+.icons8-list-of-thumbnails:before {
+    content: "\f248";
+}
+
+.icons8-app-symbol:before {
+    content: "\f249";
+}
+
+.icons8-analyze:before {
+    content: "\f24a";
+}
+
+.icons8-bar-chart-and-polyline:before {
+    content: "\f24b";
+}
+
+.icons8-line-chart:before {
+    content: "\f24c";
+}
+
+.icons8-area-chart:before {
+    content: "\f24d";
+}
+
+.icons8-stocks:before {
+    content: "\f24e";
+}
+
+.icons8-heat-map:before {
+    content: "\f24f";
+}
+
+.icons8-being-sick:before {
+    content: "\f250";
+}
+
+.icons8-rules:before {
+    content: "\f251";
+}
+
+.icons8-management:before {
+    content: "\f252";
+}
+
+.icons8-public-announcement:before {
+    content: "\f253";
+}
+
+.icons8-grid:before {
+    content: "\f254";
+}
+
+.icons8-grid-view:before {
+    content: "\f255";
+}
+
+.icons8-indent:before {
+    content: "\f256";
+}
+
+.icons8-apply:before {
+    content: "\f257";
+}
+
+.icons8-comments:before {
+    content: "\f258";
+}
+
+.icons8-circled-play:before {
+    content: "\f259";
+}
+
+.icons8-launchpad:before {
+    content: "\f25a";
+}
+
+.icons8-play:before {
+    content: "\f25b";
+}
+
+.icons8-mute:before {
+    content: "\f25c";
+}
+
+.icons8-speaker:before {
+    content: "\f25d";
+}
+
+.icons8-tv:before {
+    content: "\f25e";
+}
+
+.icons8-pause-button-2:before {
+    content: "\f25f";
+}
+
+.icons8-skip-this-track:before {
+    content: "\f260";
+}
+
+.icons8-previous-track:before {
+    content: "\f261";
+}
+
+.icons8-donation:before {
+    content: "\f262";
+}
+
+.icons8-search-more:before {
+    content: "\f263";
+}
+
+.icons8-add-user-male:before {
+    content: "\f264";
+}
+
+.icons8-add-user-group-man-man:before {
+    content: "\f265";
+}
+
+.icons8-import:before {
+    content: "\f266";
+}
+
+.icons8-add-search:before {
+    content: "\f267";
+}
+
+.icons8-add-text:before {
+    content: "\f268";
+}
+
+.icons8-calendar-plus:before {
+    content: "\f269";
+}
+
+.icons8-buy:before {
+    content: "\f26a";
+}
+
+.icons8-map:before {
+    content: "\f26b";
+}
+
+.icons8-feed-in:before {
+    content: "\f26c";
+}
+
+.icons8-export:before {
+    content: "\f26d";
+}
+
+.icons8-doc:before {
+    content: "\f26e";
+}
+
+.icons8-shipped:before {
+    content: "\f26f";
+}
+
+.icons8-user-with-a-magnifying-glass:before {
+    content: "\f270";
+}
+
+.icons8-xml:before {
+    content: "\f271";
+}
+
+.icons8-resume:before {
+    content: "\f272";
+}
+
+.icons8-invisible:before {
+    content: "\f273";
+}
+
+.icons8-playstore:before {
+    content: "\f274";
+}
+
+.icons8-security-ssl:before {
+    content: "\f275";
+}
+
+.icons8-data-transfer:before {
+    content: "\f276";
+}
+
+.icons8-blog:before {
+    content: "\f277";
+}
+
+.icons8-open-book:before {
+    content: "\f278";
+}
+
+.icons8-knowledge-source:before {
+    content: "\f279";
+}
+
+.icons8-artificial-intelligence:before {
+    content: "\f27a";
+}
+
+.icons8-brain-storming:before {
+    content: "\f27b";
+}
+
+.icons8-building-outline:before {
+    content: "\f27c";
+}
+
+.icons8-construction-worker:before {
+    content: "\f27d";
+}
+
+.icons8-business-card:before {
+    content: "\f27e";
+}
+
+.icons8-business-hierarchy:before {
+    content: "\f27f";
+}
+
+.icons8-accounting:before {
+    content: "\f280";
+}
+
+.icons8-online-support:before {
+    content: "\f281";
+}
+
+.icons8-training:before {
+    content: "\f282";
+}
+
+.icons8-collaboration:before {
+    content: "\f283";
+}
+
+.icons8-routine-work:before {
+    content: "\f284";
+}
+
+.icons8-feedback:before {
+    content: "\f285";
+}
+
+.icons8-clipboard-checklist:before {
+    content: "\f286";
+}
+
+.icons8-badge:before {
+    content: "\f287";
+}
+
+.icons8-timeline:before {
+    content: "\f288";
+}
+
+.icons8-tree-structure:before {
+    content: "\f289";
+}
+
+.icons8-video-conference:before {
+    content: "\f28a";
+}
+
+.icons8-invite:before {
+    content: "\f28b";
+}
+
+.icons8-reseller:before {
+    content: "\f28c";
+}
+
+.icons8-signature:before {
+    content: "\f28d";
+}
+
+.icons8-job-seeker:before {
+    content: "\f28e";
+}
+
+.icons8-set-as-resume:before {
+    content: "\f28f";
+}
+
+.icons8-remove-ads:before {
+    content: "\f290";
+}
+
+.icons8-mockup:before {
+    content: "\f291";
+}
+
+.icons8-study:before {
+    content: "\f292";
+}
+
+.icons8-brochure:before {
+    content: "\f293";
+}
+
+.icons8-questionnaire:before {
+    content: "\f294";
+}
+
+.icons8-business-card-2:before {
+    content: "\f295";
+}
+
+.icons8-sustainability:before {
+    content: "\f296";
+}
+
+.icons8-network-drive:before {
+    content: "\f297";
+}
+
+.icons8-versions:before {
+    content: "\f298";
+}
+
+.icons8-average-2:before {
+    content: "\f299";
+}
+
+.icons8-expensive-price:before {
+    content: "\f29a";
+}
+
+.icons8-columns:before {
+    content: "\f29b";
+}
+
+.icons8-success-and-failure:before {
+    content: "\f29c";
+}
+
+.icons8-conference-foreground-selected:before {
+    content: "\f29d";
+}
+
+.icons8-percentage-sign:before {
+    content: "\f29e";
+}
+
+.icons8-1:before {
+    content: "\f29f";
+}
+
+.icons8-2:before {
+    content: "\f2a0";
+}
+
+.icons8-3:before {
+    content: "\f2a1";
+}
+
+.icons8-4:before {
+    content: "\f2a2";
+}
+
+.icons8-5:before {
+    content: "\f2a3";
+}
+
+.icons8-6:before {
+    content: "\f2a4";
+}
+
+.icons8-number-seven:before {
+    content: "\f2a5";
+}
+
+.icons8-number-eight:before {
+    content: "\f2a6";
+}
+
+.icons8-9:before {
+    content: "\f2a7";
+}
+
+.icons8-less-or-equal:before {
+    content: "\f2a8";
+}
+
+.icons8-more-or-equal:before {
+    content: "\f2a9";
+}
+
+.icons8-approximately-equal:before {
+    content: "\f2aa";
+}
+
+.icons8-leave:before {
+    content: "\f2ab";
+}
+
+.icons8-year-view:before {
+    content: "\f2ac";
+}
+
+.icons8-event:before {
+    content: "\f2ad";
+}
+
+.icons8-call-center:before {
+    content: "\f2ae";
+}
+
+.icons8-sleeping-in-bed:before {
+    content: "\f2af";
+}
+
+.icons8-deleted-message:before {
+    content: "\f2b0";
+}
+
+.icons8-chat-blocked:before {
+    content: "\f2b1";
+}
+
+.icons8-delete-chat:before {
+    content: "\f2b2";
+}
+
+.icons8-chat:before {
+    content: "\f2b3";
+}
+
+.icons8-replace:before {
+    content: "\f2b4";
+}
+
+.icons8-chat-2:before {
+    content: "\f2b5";
+}
+
+.icons8-received:before {
+    content: "\f2b6";
+}
+
+.icons8-group-message:before {
+    content: "\f2b7";
+}
+
+.icons8-road-worker:before {
+    content: "\f2b8";
+}
+
+.icons8-clock:before {
+    content: "\f2b9";
+}
+
+.icons8-hands-in-a-handshake:before {
+    content: "\f2ba";
+}
+
+.icons8-clock-outline:before {
+    content: "\f2bb";
+}
+
+.icons8-alarm-clock:before {
+    content: "\f2bc";
+}
+
+.icons8-clock-2:before {
+    content: "\f2bd";
+}
+
+.icons8-add-property:before {
+    content: "\f2be";
+}
+
+.icons8-credit-card:before {
+    content: "\f2bf";
+}
+
+.icons8-hand-holding-card:before {
+    content: "\f2c0";
+}
+
+.icons8-dashboard-2:before {
+    content: "\f2c1";
+}
+
+.icons8-ftp:before {
+    content: "\f2c2";
+}
+
+.icons8-upload-symbol:before {
+    content: "\f2c3";
+}
+
+.icons8-download-from-ftp:before {
+    content: "\f2c4";
+}
+
+.icons8-navigation-pane:before {
+    content: "\f2c5";
+}
+
+.icons8-data-grid:before {
+    content: "\f2c6";
+}
+
+.icons8-data-sheet:before {
+    content: "\f2c7";
+}
+
+.icons8-doughnut-chart:before {
+    content: "\f2c8";
+}
+
+.icons8-system-task:before {
+    content: "\f2c9";
+}
+
+.icons8-archived-data-2:before {
+    content: "\f2ca";
+}
+
+.icons8-statistics:before {
+    content: "\f2cb";
+}
+
+.icons8-fingerprint:before {
+    content: "\f2cc";
+}
+
+.icons8-api:before {
+    content: "\f2cd";
+}
+
+.icons8-merge-git:before {
+    content: "\f2ce";
+}
+
+.icons8-order-history:before {
+    content: "\f2cf";
+}
+
+.icons8-loyalty:before {
+    content: "\f2d0";
+}
+
+.icons8-receipt:before {
+    content: "\f2d1";
+}
+
+.icons8-tiles:before {
+    content: "\f2d2";
+}
+
+.icons8-no-edit:before {
+    content: "\f2d3";
+}
+
+.icons8-education:before {
+    content: "\f2d4";
+}
+
+.icons8-student-center:before {
+    content: "\f2d5";
+}
+
+.icons8-zip-file:before {
+    content: "\f2d6";
+}
+
+.icons8-filter-2:before {
+    content: "\f2d7";
+}
+
+.icons8-keyboard:before {
+    content: "\f2d8";
+}
+
+.icons8-mouse:before {
+    content: "\f2d9";
+}
+
+.icons8-computer-mouse-outline:before {
+    content: "\f2da";
+}
+
+.icons8-mouse-right-click:before {
+    content: "\f2db";
+}
+
+.icons8-computer-mouse-outline-2:before {
+    content: "\f2dc";
+}
+
+.icons8-swipe-right:before {
+    content: "\f2dd";
+}
+
+.icons8-swipe-up:before {
+    content: "\f2de";
+}
+
+.icons8-swipe-down:before {
+    content: "\f2df";
+}
+
+.icons8-swipe-left:before {
+    content: "\f2e0";
+}
+
+.icons8-profile:before {
+    content: "\f2e1";
+}
+
+.icons8-product:before {
+    content: "\f2e2";
+}
+
+.icons8-tracking:before {
+    content: "\f2e3";
+}
+
+.icons8-qr-code:before {
+    content: "\f2e4";
+}
+
+.icons8-work-in-bed:before {
+    content: "\f2e5";
+}
+
+.icons8-outdent:before {
+    content: "\f2e6";
+}
+
+.icons8-transaction-list:before {
+    content: "\f2e7";
+}
+
+.icons8-stop-symbol:before {
+    content: "\f2e8";
+}
+
+.icons8-fast-forward-symbol:before {
+    content: "\f2e9";
+}
+
+.icons8-previous-track-2:before {
+    content: "\f2ea";
+}
+
+.icons8-outline-of-a-circle:before {
+    content: "\f2eb";
+}
+
+.icons8-view-more:before {
+    content: "\f2ec";
+}
+
+.icons8-thumbnail-view:before {
+    content: "\f2ed";
+}
+
+.icons8-id-verified:before {
+    content: "\f2ee";
+}
+
+.icons8-id-not-verified:before {
+    content: "\f2ef";
+}
+
+.icons8-thumbnail-view-2:before {
+    content: "\f2f0";
+}
+
+.icons8-bookmark:before {
+    content: "\f2f1";
+}
+
+.icons8-ship-wheel:before {
+    content: "\f2f2";
+}
+
+.icons8-browser-history:before {
+    content: "\f2f3";
+}
+
+.icons8-stop-hand-in-a-circle:before {
+    content: "\f2f4";
+}
+
+.icons8-lock-orientation:before {
+    content: "\f2f5";
+}
+
+.icons8-loader:before {
+    content: "\f2f6";
+}
+
+.icons8-navigation-toolbar-left:before {
+    content: "\f2f7";
+}
+
+.icons8-mushroom-cloud:before {
+    content: "\f2f8";
+}
+
+.icons8-trust:before {
+    content: "\f2f9";
+}
+
+.icons8-medical-doctor:before {
+    content: "\f2fa";
+}
+
+.icons8-birthday:before {
+    content: "\f2fb";
+}
+
+.icons8-guarantee:before {
+    content: "\f2fc";
+}
+
+.icons8-idea-bank:before {
+    content: "\f2fd";
+}
+
+.icons8-compose:before {
+    content: "\f2fe";
+}
+
+.icons8-fill-drip:before {
+    content: "\f2ff";
+}
+
+.icons8-group-objects:before {
+    content: "\f300";
+}
+
+.icons8-rocket:before {
+    content: "\f301";
+}
+
+.icons8-email-send:before {
+    content: "\f302";
+}
+
+.icons8-heart-with-arrow:before {
+    content: "\f303";
+}
+
+.icons8-alert:before {
+    content: "\f304";
+}
+
+.icons8-alarm:before {
+    content: "\f305";
+}
+
+.icons8-time-limit:before {
+    content: "\f306";
+}
+
+.icons8-user-manual:before {
+    content: "\f307";
+}
+
+.icons8-male:before {
+    content: "\f308";
+}
+
+.icons8-couple:before {
+    content: "\f309";
+}
+
+.icons8-snow:before {
+    content: "\f30a";
+}
+
+.icons8-laptop-settings:before {
+    content: "\f30b";
+}
+
+.icons8-file-settings:before {
+    content: "\f30c";
+}
+
+.icons8-adjust:before {
+    content: "\f30d";
+}
+
+.icons8-change-user:before {
+    content: "\f30e";
+}
+
+.icons8-touchscreen:before {
+    content: "\f30f";
+}
+
+.icons8-family:before {
+    content: "\f310";
+}
+
+.icons8-guardian:before {
+    content: "\f311";
+}
+
+.icons8-car-rental:before {
+    content: "\f312";
+}
+
+.icons8-van:before {
+    content: "\f313";
+}
+
+.icons8-float:before {
+    content: "\f314";
+}
+
+.icons8-running:before {
+    content: "\f315";
+}
+
+.icons8-mail-filter:before {
+    content: "\f316";
+}
+
+.icons8-company:before {
+    content: "\f317";
+}
+
+.icons8-audit:before {
+    content: "\f318";
+}
+
+.icons8-female:before {
+    content: "\f319";
+}
+
+.icons8-male-and-female:before {
+    content: "\f31a";
+}
+
+.icons8-transgender:before {
+    content: "\f31b";
+}
+
+.icons8-macbook-settings:before {
+    content: "\f31c";
+}
+
+.icons8-searchlight:before {
+    content: "\f31d";
+}
+
+.icons8-important-event:before {
+    content: "\f31e";
+}
+
+.icons8-report-card:before {
+    content: "\f31f";
+}
+
+.icons8-arrow-up:before {
+    content: "\f320";
+}
+
+.icons8-u-turn-to-left:before {
+    content: "\f321";
+}
+
+.icons8-box-important:before {
+    content: "\f322";
+}
+
+.icons8-transaction:before {
+    content: "\f323";
+}
+
+.icons8-stock-share:before {
+    content: "\f324";
+}
+
+.icons8-cutlery:before {
+    content: "\f325";
+}
+
+.icons8-home-office:before {
+    content: "\f326";
+}
+
+.icons8-suitcase:before {
+    content: "\f327";
+}
+
+.icons8-business-group:before {
+    content: "\f328";
+}
+
+.icons8-sales-performance:before {
+    content: "\f329";
+}
+
+.icons8-car:before {
+    content: "\f32a";
+}
+
+.icons8-address:before {
+    content: "\f32b";
+}
+
+.icons8-location:before {
+    content: "\f32c";
+}
+
+.icons8-map-marker:before {
+    content: "\f32d";
+}
+
+.icons8-europe:before {
+    content: "\f32e";
+}
+
+.icons8-language:before {
+    content: "\f32f";
+}
+
+.icons8-language-skill:before {
+    content: "\f330";
+}
+
+.icons8-toggle-full-screen:before {
+    content: "\f331";
+}
+
+.icons8-delete:before {
+    content: "\f332";
+}
+
+.icons8-redo:before {
+    content: "\f333";
+}
+
+.icons8-reboot:before {
+    content: "\f334";
+}
+
+.icons8-final-state:before {
+    content: "\f335";
+}
+
+.icons8-marker:before {
+    content: "\f336";
+}
+
+.icons8-important-month:before {
+    content: "\f337";
+}
+
+.icons8-maintenance-date:before {
+    content: "\f338";
+}
+
+.icons8-pay-date:before {
+    content: "\f339";
+}
+
+.icons8-cancel:before {
+    content: "\f33a";
+}
+
+.icons8-view-column:before {
+    content: "\f33c";
+}
+
+.icons8-note:before {
+    content: "\f33d";
+}
+
+.icons8-family-2:before {
+    content: "\f33e";
+}
+
+.icons8-database-view:before {
+    content: "\f33f";
+}
+
+.icons8-minimize-window:before {
+    content: "\f340";
+}
+
+.icons8-csv:before {
+    content: "\f341";
+}
+
+.icons8-pdf-2:before {
+    content: "\f342";
+}
+
+.icons8-inactive-state:before {
+    content: "\f343";
+}
+
+.icons8-active-state:before {
+    content: "\f344";
+}
+
+.icons8-initial-state:before {
+    content: "\f345";
+}
+
+.icons8-leaf:before {
+    content: "\f346";
+}
+
+.icons8-food:before {
+    content: "\f347";
+}
+
+.icons8-receipt-and-change:before {
+    content: "\f348";
+}
+
+.icons8-space-before-paragraph:before {
+    content: "\f34d";
+}
+
+.icons8-up-arrow:before {
+    content: "\f34e";
+}
+
+.icons8-down-arrow:before {
+    content: "\f34f";
+}
+
+.icons8-up:before {
+    content: "\f350";
+}
+
+.icons8-down:before {
+    content: "\f351";
+}
+
+.icons8-down-button:before {
+    content: "\f352";
+}
+
+.icons8-business-report:before {
+    content: "\f353";
+}
+
+.icons8-stopwatch:before {
+    content: "\f354";
+}
+
+.icons8-briefcase-settings:before {
+    content: "\f355";
+}
+
+.icons8-task-completed:before {
+    content: "\f356";
+}
+
+.icons8-grid-2:before {
+    content: "\f357";
+}
+
+.icons8-plus:before {
+    content: "\f358";
+}
+
+.icons8-profile-2:before {
+    content: "\f359";
+}
+
+.icons8-paper-money:before {
+    content: "\f35a";
+}
+
+.icons8-brick:before {
+    content: "\f35b";
+}
+
+.icons8-no-entry:before {
+    content: "\f35c";
+}
+
+.icons8-receive-dollar:before {
+    content: "\f35d";
+}
+
+.icons8-stack-of-money:before {
+    content: "\f35e";
+}
+
+.icons8-macos-close:before {
+    content: "\f35f";
+}
+
+.icons8-mail:before {
+    content: "\f360";
+}
+
+.icons8-heart:before {
+    content: "\f361";
+}
+
+.icons8-repeat:before {
+    content: "\f362";
+}
+
+.icons8-users-settings:before {
+    content: "\f363";
+}
+
+.icons8-money-transfer:before {
+    content: "\f364";
+}
+
+.icons8-bill:before {
+    content: "\f365";
+}
+
+.icons8-tune:before {
+    content: "\f366";
+}
+
+.icons8-cash:before {
+    content: "\f367";
+}
+
+.icons8-wallet:before {
+    content: "\f368";
+}
+
+.icons8-receive-euro:before {
+    content: "\f369";
+}
+
+.icons8-check-for-payment:before {
+    content: "\f36a";
+}
+
+.icons8-ok:before {
+    content: "\f36b";
+}
+
+.icons8-error-2:before {
+    content: "\f36c";
+}
+
+.icons8-box-important-2:before {
+    content: "\f36d";
+}
+
+.icons8-info-2:before {
+    content: "\f36e";
+}
+
+.icons8-ok-2:before {
+    content: "\f36f";
+}
+
+.icons8-lowercase:before {
+    content: "\f370";
+}
+
+.icons8-typography:before {
+    content: "\f371";
+}
+
+.icons8-slide-up:before {
+    content: "\f372";
+}
+
+.icons8-group:before {
+    content: "\f373";
+}
+
+.icons8-negative:before {
+    content: "\f374";
+}
+
+.icons8-sum:before {
+    content: "\f375";
+}
+
+.icons8-font-awesome-flag:before {
+    content: "\f376";
+}
+
+.icons8-minus:before {
+    content: "\f377";
+}
+
+.icons8-subtract:before {
+    content: "\f378";
+}
+
+.icons8-line:before {
+    content: "\f379";
+}
+
+.icons8-ambulance:before {
+    content: "\f37a";
+}
+
+.icons8-leaf-2:before {
+    content: "\f37b";
+}
+
+.icons8-ecology:before {
+    content: "\f37c";
+}
+
+.icons8-cancel-2:before {
+    content: "\f37d";
+}
+
+.icons8-chevron-down-2:before {
+    content: "\f37f";
+}
+
+.icons8-chevron-right-2:before {
+    content: "\f380";
+}
+
+.icons8-chevron-left-2:before {
+    content: "\f381";
+}
+
+.icons8-chevron-up-2:before {
+    content: "\f382";
+}
+
+.icons8-eraser:before {
+    content: "\f383";
+}
+
+.icons8-picture:before {
+    content: "\f384";
+}
+
+.icons8-happy:before {
+    content: "\f385";
+}
+
+@font-face {
+    font-family: "sdwds-icons8";
+    src: url("../fonts/icons8/sdwds-icons8.eot");
+    src: url("../fonts/icons8/sdwds-icons8.eot?#iefix") format("embedded-opentype"), url("../fonts/icons8/sdwds-icons8.woff2") format("woff2"), url("../fonts/icons8/sdwds-icons8.woff") format("woff"), url("../fonts/icons8/sdwds-icons8.ttf") format("truetype"), url("../fonts/icons8/sdwds-icons8.svg#sdwds-icons8") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    @font-face {
+        font-family: "sdwds-icons8";
+        src: url("../fonts/icons8/sdwds-icons8.svg#sdwds-icons8") format("svg");
+    }
+}

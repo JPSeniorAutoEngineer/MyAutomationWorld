@@ -1,0 +1,241 @@
+﻿#Input
+{
+	border:2px inset;
+}
+
+/**
+Input
+{
+	font-size:11px;
+}
+**/
+
+#P60TD {
+	font-size: 11px;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoBold';
+	color: #555d71;
+	font-weight: normal;
+}
+
+.P60TDAmt {
+	font-size: 11px;
+	text-align: right;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoBold';
+	color: #555d71;
+	font-weight: normal;
+}
+
+.P60PrtTDLabel {
+	font-weight: normal !important;
+	vertical-align: top;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoRegular' !important;
+	color: #555d71;
+	font-size: 11px !important;
+}
+
+/* DIV Styles */
+.P60PrtSectionHeader {
+	font-weight: normal;
+	height: 15px;
+	font-size: 11px;
+	text-align: center;
+	padding: 5px 5px 5px 12px;
+	/*width:100%;*/
+	border-bottom: solid 1px #c8cdd9;
+	/*border:1px dashed red;*/
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoBold';
+	color: #e94e0f;
+}
+
+.P60PrtDataArea
+{
+	padding:0px 5px 5px 5px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	height:100%;
+	color:#5377A9;
+/*border:1px dashed red;*/
+}
+
+.P60PrtGroupDIV
+{
+	clear:both;
+    padding:0px 0px 10px 0px;
+	/*height:60px;*/
+	height:100%;
+	font-family:Tahoma;
+	color:#5377A9;
+}
+
+.P60PrtPSTable
+{
+	font-family:Verdana;
+	color:#5377A9;
+/*border:1px dashed red;*/
+	/**Look and Feel 16.1**/
+	font-size: 11px;
+}
+
+.PrintP60HeaderDIV
+{
+	width:630px;
+	margin:5px 5px 5px 5px;	
+	float:left;
+	color:#5377A9;
+}
+
+.P60PrintControlsDIV
+{
+	margin:0px 0px 0px 5px;	
+	float:left;
+	color:#5377A9;
+}
+
+.P60PrintTitleHeader
+{
+	color:#5377A9;
+	text-align:center;
+	font-weight:bolder;
+	/**Look and Feel 16.1**/
+	font-family:Verdana;
+	font-size: 11px;
+}
+
+.P60PrtEmployeeDetailsColDIV {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrtPayIncomeTaxColDIV {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrtOtherDetailsColDIV {
+	width: 320px;
+	height: 110px;
+	margin: 0px 3px 5px 4px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrtEmployersUseColDIV {
+	width: 299px; /**OPD HReV15: Change from 301px to 297px**/
+	height: 110px;
+	margin: 0px 3px 5px 4px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrtEmployersDetailsColDIV {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrtNIContributionsColDIV {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #5377A9;
+	border-radius: 5px;
+}
+
+.P60PrintTitleHdrTextLeft {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	/*background-color:White;*/
+	color: #555d71;
+	text-align: left;
+	font-size: 11px;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoRegular';
+}
+
+.P60PrintTitleHdrTextRight {
+	width: 630px;
+	margin: 0px 5px 5px 5px;
+	/*background-color:White;*/
+	color: #555d71;
+	text-align: right;
+	font-size: 10px;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoRegular';
+}
+
+.P60PrintEmployerDetail {
+	margin: 0px 0px 0px 0px;
+	background-color: White;
+	color: #555d71;
+	text-align: left;
+	font-size: 11px;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoRegular';
+	font-weight: normal;
+}
+
+@media print
+{
+	.printbutton
+	{
+		visibility: hidden;
+		display: none;
+	}
+}
+
+/**Look and Feel 16.1**/
+.P60PrtPSTitle {
+	color:#555d71;
+	font-weight:normal;
+	font-family:'RobotoBold';
+	font-size: 11px;
+}
+
+.SDP60TDAmtData {
+	border-color: #f3a687 !important;
+}
+
+.SDP60PrtTDLabel {
+	font-weight: normal !important;
+	vertical-align: top;
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoRegular' !important;
+	color: #555d71;
+	font-size: 11px !important;
+}
+
+.mainPrintPayslip {
+	padding: 10px 0px 0px 35px !important;
+}
+
+#ctl00_MCPH_fvPayIncomeTaxDetails_lblRefund, #ctl00_MCPH_lblP60Substitute {
+	font-family: 'RobotoRegular' !important;
+	font-weight: normal !important;
+	font-size: 10px !important;
+}

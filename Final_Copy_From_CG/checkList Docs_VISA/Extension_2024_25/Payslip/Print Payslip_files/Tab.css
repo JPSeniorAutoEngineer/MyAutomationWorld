@@ -1,0 +1,74 @@
+﻿/*Header*/
+.Tab .ajax__tab_header {
+    color: #303642;
+    font-family: 'RobotoRegular';
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #D3D3D3;
+    border-bottom-width: 1px;
+}
+/*Body*/
+.Tab .ajax__tab_body
+{
+    padding-top:0px;
+    /*color: #000000;*/
+    color: #303642
+}
+/*Tab Active*/
+.Tab .ajax__tab_active .ajax__tab_tab {
+    color: #303642;
+    height: 20px;
+}
+
+.Tab .ajax__tab_active .ajax__tab_inner {
+    color: #303642;
+    padding-left: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: #e94e0f;
+}
+
+.Tab .ajax__tab_active .ajax__tab_outer {
+    color: #303642;
+    padding-right: 6px;
+}
+
+/*Tab Hover*/
+.Tab .ajax__tab_hover .ajax__tab_tab {
+    color: #303642;
+    height: 20px;
+}
+
+.Tab .ajax__tab_hover .ajax__tab_inner {
+    color: #303642;
+    padding-left: 10px;
+}
+
+.Tab .ajax__tab_hover .ajax__tab_outer {
+    color: #303642;
+    padding-right: 6px;
+}
+
+/*Tab Inactive*/
+.Tab .ajax__tab_tab
+{
+    color: #303642;
+    height:20px;
+}
+
+.Tab .ajax__tab_inner {
+    color: #303642;
+    padding-left: 10px;
+}
+
+.Tab .ajax__tab_outer {
+    color: #303642;
+    padding-right: 6px;
+    margin-right: 2px;
+}
+
+.Tab .ajax__tab_panel
+{
+    padding:10px;    
+}

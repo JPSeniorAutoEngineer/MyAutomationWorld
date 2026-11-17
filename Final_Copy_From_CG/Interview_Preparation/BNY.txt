@@ -1,0 +1,15 @@
+BNY
+JOB DESCRIPTION
+Functional Title:  QA Automation
+
+    Conduct QA reviews of sanctions operations L1 and L2 alert dispositions for static and transactional sanctions hits 
+    Document and report any defects or issues discovered during the review process, providing clear descriptions and relevant details and support for each defect or issue.
+    Ensure compliance with established policies, procedures, and regulatory requirements.
+
+To be successful in this role, we’re seeking the following: 
+
+    Bachelor’s degree or equivalent combination of education and work experience required
+    At least 3 years of financial crime-related alert review experience (with a preference for sanctions alerts) or testing/QA experience 
+    Strong understanding of fundamental test/QA processes
+    Strong analytical, problem-solving, organizational and time management skills
+    Ability to self-manage workload and goals independently in a fast-paced and deadline-driven organization

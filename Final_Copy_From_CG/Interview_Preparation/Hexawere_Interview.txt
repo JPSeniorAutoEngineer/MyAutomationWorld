@@ -1,0 +1,169 @@
+For a Senior Automation Tester / Senior QA Automation Engineer interview at Hexaware, the questions are usually focused on Selenium, Playwright, API Testing, Java/JavaScript, Framework Design, CI/CD, SQL, and Test Automation Strategy. Based on Hexaware's typical technical interview focus on automation, coding, OOPs, databases, and project discussions, you can expect questions like these.
+
+1. Playwright Questions
+Basic
+Why Playwright over Selenium?
+What are Playwright fixtures?
+Difference between locator() and page.$().
+How do you handle multiple browser contexts?
+How do you perform file upload and download?
+Advanced
+Explain auto-waiting in Playwright.
+Difference between Browser, Context, and Page.
+How do you handle frames and iframes?
+How do you implement retries?
+How do you run tests in parallel?
+How do you generate and analyze Playwright reports?
+
+Example:
+
+await page.locator('#submit').click();
+await expect(page.locator('.success')).toBeVisible();
+
+2. Selenium Questions
+What is StaleElementReferenceException?
+How do you handle dynamic elements?
+Difference between implicit and explicit waits.
+What is Fluent Wait?
+How do you handle multiple windows?
+What are Selenium Grid advantages?
+3. Framework Design Questions
+
+Senior candidates are almost always asked:
+
+Scenario:
+
+"Design an automation framework from scratch."
+
+Expected answer:
+
+Page Object Model (POM)
+Test Data Management
+Configuration Management
+Logging
+Reporting (Allure/Extent)
+CI/CD Integration
+Retry Mechanism
+Parallel Execution
+
+Framework structure:
+
+src
+ ├─ pages
+ ├─ tests
+ ├─ utilities
+ ├─ config
+ ├─ testdata
+ └─ reports
+
+4. API Testing Questions
+What is REST API?
+Difference between PUT and PATCH.
+Status Codes:
+200
+201
+400
+401
+403
+404
+500
+How do you automate API testing?
+How do you validate response schema?
+
+Example:
+
+const response = await request.get('/users');
+expect(response.status()).toBe(200);
+
+5. Java / JavaScript Coding Questions
+Java
+String reverse
+Palindrome
+Find duplicate characters
+Array sorting
+HashMap vs HashSet
+OOP concepts
+
+Example:
+
+String s = "hexaware";
+String rev = new StringBuilder(s).reverse().toString();
+
+JavaScript
+var vs let vs const
+Promise
+Async/Await
+Closure
+Hoisting
+Arrow Functions
+6. SQL Questions
+
+Very common for automation interviews.
+
+Queries
+
+Find second highest salary:
+
+SELECT MAX(Salary)
+FROM Employee
+WHERE Salary < (
+  SELECT MAX(Salary)
+  FROM Employee
+);
+
+Concepts
+Joins
+Group By
+Primary Key
+Foreign Key
+Normalization
+7. CI/CD Questions
+What is Jenkins?
+Explain Jenkins Pipeline.
+How do you trigger Playwright tests through Jenkins?
+How do you integrate reports with CI?
+
+Pipeline example:
+
+stage('Test'){
+   sh 'npx playwright test'
+}
+
+8. Agile Questions
+Scrum ceremony details?
+What is Definition of Done?
+How do you estimate story points?
+How do you handle production defects?
+9. Real-Time Senior-Level Questions
+How did you reduce automation execution time?
+How many tests have you automated?
+How do you maintain flaky tests?
+What challenges did you face with Playwright?
+How do you convince stakeholders to automate a scenario?
+What is your automation ROI calculation?
+10. Managerial Round Questions
+Explain your current project architecture.
+How do you review automation code?
+How do you mentor junior testers?
+How do you handle delivery pressure?
+Why do you want to join Hexaware Technologies?
+Frequently Asked Playwright Coding Round
+
+Write a script that:
+
+Opens a browser.
+Logs into an application.
+Verifies a dashboard title.
+Captures a screenshot on failure.
+
+This is one of the most common practical exercises for Senior Automation Tester roles.
+
+For 6+ years Senior Automation Tester (Playwright + API + SQL) at Hexaware, I would focus preparation on:
+
+40% Playwright
+20% API Testing
+15% SQL
+15% Framework Design
+10% Java/JavaScript Coding
+
+These are typically the areas interviewers emphasize during technical discussions and coding rounds.

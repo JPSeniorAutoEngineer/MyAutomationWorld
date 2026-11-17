@@ -1,0 +1,215 @@
+﻿#Input
+{
+	border:2px inset;
+}	
+
+/* DIV Styles */
+.SectionHeaderPrtPayslip {
+	font-family: 'RobotoBold';
+	height: 15px;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	border-bottom: solid 1px #c8cdd9;
+}
+
+/* DIV Styles */
+.MessageSectionHeader
+{
+	font-weight: bolder;
+	height: 15px;
+	font-size: 10px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 0px;
+}
+
+.DataAreaPrtPayslip, .DataAreaPrtEEDetails, .DataAreaPrtISSExtra, .DataAreaPrtGEExtra {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    color: #5377A9;
+    padding-right: 3px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+
+.PayslipColTotalPrtPayslip
+{
+	padding:0px 0px 5px 0px;
+	color:#5377A9;
+	overflow-y:auto;
+	overflow-x:hidden;
+	width: 100%;
+}
+
+.PSTablePrtPayslip
+{
+	font-family:Verdana;
+	color:#5377A9;
+}
+
+.GroupDIVPrtPayslip
+{
+	padding:0px 0px 10px 0px;
+	height:100%;
+	font-family:'RobotoRegular';
+	color:#5377A9;
+	width:660px;
+}
+
+.EmpDetailsDIVPrtPayslip {
+	width: 640px;
+	margin: 3px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #e94e0f;
+	border-radius: 5px;
+}
+
+.PrintPayslipHeaderDIV
+{
+	width: 620px;
+	margin: 3px;
+	float: left;
+	color: #5377A9;
+}
+
+.PayslipPrintControlsDIV
+{
+	margin: 0px 0px 0px 3px;
+	float: left;
+	color: #5377A9;
+}
+
+.MiddleColDIVPrtPayslip {
+	width: 207px;
+	margin: 0px 4px 3px 3px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #e94e0f;
+	height: 100%;
+	overflow: visible;
+	border-radius: 5px;
+}
+
+.NetDIV
+{
+	width:209px;
+	margin:0px 5px 5px 5px;
+	padding:5px 5px 5px 5px;
+	background-color:White;
+	float:left;
+	border:solid 2px #acbed6;
+	color:#5377A9;
+}
+
+.InfoDIVPrtPayslip {
+	width: 640px;
+	margin: 0px 3px 3px;
+	background-color: White;
+	float: left;
+	border: solid 1px #c8cdd9;
+	color: #e94e0f;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 5px;
+	border-radius: 5px;
+}
+
+.MessageDataArea {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100%;
+	color: #5377A9;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-top: 1px solid #c8cdd9;
+}
+
+.IconColumnPrtPayslip
+{
+	width: 12px;
+	/**Look and Feel 16.1**/
+	font-size: 11px;
+}
+
+.TDPrtAmtData
+{
+	text-align:right;
+	/**Look and Feel 16.1**/
+	font-family:Verdana;
+	font-size: 11px;
+	color:#5377A9;
+}
+
+@media print
+{
+	.printbutton
+	{
+		visibility: hidden;
+		display: none;
+	}
+}
+
+/**Look and Feel 16.1**/
+.PSLabelPrtPayslip {
+	font-family: 'RobotoRegular';
+	font-size: 12px;
+	color: #555d71;
+	vertical-align: top;
+	word-break: break-word;
+	font-weight: normal !important;
+}
+
+.SDPSLabelPrtPayslip {
+	font-family: 'RobotoBold';
+	font-size: 12px;
+	color: #555d71;
+	vertical-align: top;
+	word-break: break-word;
+	font-weight: normal !important;
+}
+
+.WorkedHoursPrintTotal {
+	font-family: 'RobotoRegular';
+	font-size: 12px;
+	color: #555d71;
+	text-align: right;
+	width: 65px;
+	vertical-align: top;
+}
+
+.SDTDPrtAmtData {
+	font-family: 'RobotoBold';
+	font-size: 12px;
+	color: #555d71;
+	vertical-align: top;
+	word-break: break-word;
+	font-weight: normal !important;
+	padding-left: 5px;
+}
+
+.mainPrintPayslip {
+	padding: 10px 0px 0px 35px !important;
+}
+
+.sdprintbutton {
+	padding-top: 5px;
+}
+
+.SDEmpDetailsDIVPrtPayslip {
+	padding: 5px;
+}
+
+.SDPayslipColTotalPrtPayslip {
+	padding-top: 5px;
+}

@@ -1,0 +1,56 @@
+﻿/* WebControls.css */
+
+.CheckBox input, .CheckBoxList input
+{
+	margin: -4px 0px 0px -4px;
+}
+
+/**Look and Feel 16.1**/
+/*.CheckBoxList td
+{
+	padding: 0px 5px 0px 0px;
+}
+*/
+
+.GridView th, .GridView td
+{
+	padding: .5ex .5em .5ex .5em;
+	text-align:left;			/**OPD HReV15: add padding right 5px for the checkboxes**/
+}
+
+.PaddedPanel
+{
+    padding: .5ex .75em .5ex .75em;
+}
+
+.RadioButton input, .RadioButtonList input
+{
+	margin: -4px 0px 0px -4px;
+}
+.RadioButtonList td
+{
+	padding: 0px;
+}
+
+.ReadOnlyTextBox
+{
+	background-color: transparent;
+	border: solid 1px #7F9DB9;
+}
+
+/* ReportViewer WebControl */
+.ReportViewer
+{
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.ReportViewer div div
+{
+    margin-top: 0px;
+    width: auto;
+}
+
+#ctl00_LCPH_Announcements_Panel1 {
+	overflow-wrap: anywhere;
+}

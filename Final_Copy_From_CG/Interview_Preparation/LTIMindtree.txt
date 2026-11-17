@@ -1,0 +1,59 @@
+The interview process for a mid-level Automation Engineer (3 to 7 years of experience) at [LTIMindtree Chennai](https://www.google.com/search?kgmid=/g/11t5b8cj1_) typically spans two technical rounds (L1: Hands-on & Core Concepts and L2: Advanced Framework & Design) followed by an HR evaluation. [1, 2] 
+Here is a curated compilation of the most frequently asked interview questions based on recent LTIMindtree candidate experiences. [1, 2, 3] 
+------------------------------
+## 1. Java Coding & Programming (Hands-on)
+Mid-level roles at LTIMindtree place heavy emphasis on core Java logic. You will likely be asked to write code via a shared screen or editor: [2] 
+
+* String Manipulations:
+* Reverse a string using recursion or StringBuilder.
+   * Count the number of occurrences of each character or a specific character (e.g., 'A') in a string.
+   * Remove or count duplicate characters in a given string. [3, 4, 5] 
+* Arrays & Collections:
+* Shift an array to the left by K positions.
+   * Check if two arrays are similar.
+   * Differentiate between ArrayList and LinkedList, or List vs Set. [4, 5] 
+* Algorithms:
+* Implement a Bubble Sort algorithm or generate a Fibonacci series.
+   * Write a program to find the factorial or check if a number/string is a palindrome. [3, 5] 
+
+## 2. UI Automation (Selenium / Playwright)
+Expect scenario-based troubleshooting questions alongside standard API properties: [6, 7] 
+
+* Exception Handling: Explain what NoSuchElementException and StaleElementReferenceException are, why they occur, and exactly how you resolve them. [5, 7] 
+* Synchronization: Contrast Implicit Wait vs Explicit Wait vs Fluent Wait. Which one is globally preferred for dynamic elements, and why? [3, 6] 
+* Locators: How do you structure a dynamic XPath using functions like contains() or starts-with()? What is the difference between absolute and relative XPath? [1, 6] 
+* Element Interactivity:
+* How do you extract values from standard <select> dropdowns versus custom boot-strapped dropdowns?
+   * How do you shift driver focus to handle standard alerts, frames, or child windows?
+   * What is the practical difference between driver.findElement() and driver.findElements()? [3, 6, 7, 8] 
+
+## 3. Framework Architecture & Build Tools
+At a mid-level scale, you must prove you can maintain and build upon structural blocks, rather than just writing script snippets: [2] 
+
+* Framework Design: Walk through your current automation architecture end-to-end (e.g., Hybrid or BDD Cucumber). Where exactly are the page objects, test data utilities, configuration profiles, and reporting elements saved? [2, 3, 4] 
+* OOP Application: Give specific examples of how you applied Encapsulation, Inheritance, and Polymorphism inside your automation repository. [4, 5] 
+* TestNG Configuration: How do priority systems rule execution sequences? How do you execute test suites in parallel, and how do you programmatically configure a RetryAnalyzer to rerun flaky tests? [3, 8] 
+* Cucumber BDD: Explain the mechanics connecting feature files, step definitions, and runner targets. What are Cucumber hooks and background steps? [3] 
+
+## 4. API Testing (Rest Assured)
+LTIMindtree uniformly embeds backend integration expectations into their mid-level positions: [2] 
+
+* HTTP Verbs: Differentiate between POST, PUT, and PATCH executions.
+* API Chaining: Write a programmatic code sample mapping response payloads from an initial request directly into downstream parameters using [REST Assured](https://rest-assured.io/).
+* Assertions: How do you assert status codes, validate json schemas, and parse specific properties within complex response payloads? [1, 4, 5] 
+
+## 5. CI/CD, Git, & DevOps
+
+* Version Control: Explain git merge vs git rebase. How do you locate and resolve merge conflicts locally?
+* Build Tools: Detail the complete [Apache Maven](https://maven.apache.org/) lifecycle stages (e.g., compile, test, package, install).
+* CI/CD Integration: How do you parameterize a automation suite within a [Jenkins](https://www.jenkins.io/) pipeline to send out custom Extent reports post-execution? [2, 3, 9] 
+
+## 6. L2 & Scenario-Based Questions
+
+* "If a production defect slips through, how do you approach Root Cause Analysis (RCA) and convert it into a regression test case?"
+* "How do you calculate estimation timelines for QA automation tasks during sprint planning ceremonies?"
+* "Write a quick SQL query to extract the 2nd highest salary from an Employee database table." [2, 10] 
+
+------------------------------
+Are there any specific tools (such as Selenium, Playwright, or Cucumber) or programming languages (Java vs Python) that your upcoming interview panel will focus on? I can provide code samples or customized mock scenarios tailored to those selections.
+

@@ -1,0 +1,303 @@
+﻿#Input
+{
+	border:2px inset;
+}	
+
+#OuterDIV
+{
+	/*background-image:url(./images/Stripeback.gif);*/
+	filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFFFFF, endColorstr=#BED4F5);
+	/*height:495;*/
+	color:blue;
+}
+
+/* DIV Styles */
+.P60SectionHeader
+{
+    /*font-weight:bolder;*/
+	height:15px;
+	font-size:12px;
+	text-align:center;
+	/*color:#e9f1fb;*/
+	color:black;
+	padding:5px 5px 5px 12px;
+	background-color:Blue;
+    /*filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#BED5F6, endColorstr=#5b78a1);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#DCEBFE, endColorstr=#A2C0EA);
+    width:100%;
+    /*border:1px dashed red;*/
+}
+
+.P60DataArea {
+	padding: 0px 5px 5px 5px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 100%;
+	color: #555d71;
+	background-color: White;
+	border-right: #c8cdd9 1px solid;
+	border-left: #c8cdd9 1px solid;
+	border-bottom: #c8cdd9 1px solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.P60GroupDIV
+{
+	clear:both;	
+    padding:0px 0px 0px 0px;	/**OPD HReV15: remove bottom padding 10px**/
+	height:100%;	
+	font-family:Tahoma;
+	color:#5377A9;
+}
+
+.P60PSTable
+{
+	font-family:Verdana;
+	color:#5377A9;
+	/**Look and Feel 16.1**/
+	font-size: 11px;
+}
+
+.P60TitleDIV
+{
+	width:748px;
+	margin:5px 5px 5px 5px;	
+	padding:10px 10px 10px 10px;
+	/*height:50px;*/
+	background-color:White;
+	float:left;	
+	border:solid 1px #c8cdd9;
+	border-radius: 5px;
+}
+
+.P60TitleHeader {
+	Font: 12px 'RobotoBold', sans serif normal;
+	color: #555d71;
+	text-align: center;
+	/**Look and Feel 16.1**/
+}
+
+.P60HistoryDIV
+{
+	width:150px;
+	/***OPD eP60 2011: Change height from 325px***/
+	height:368px;
+	margin:0px 5px 5px 5px;	
+	float:left;
+	/*color:#5377A9;*/
+}
+
+.P60HistoryEmptyDIV
+{
+	width:150px;
+	margin:0px 5px 5px 5px;	
+	float:left;
+	visibility:hidden;
+}
+
+.P60EmployeeDetailsColDIV
+{
+	width:300px;
+	/***OPD eP60 2011: Change height from 325px***/
+	height:368px;
+	margin:0px 5px 5px 5px;	
+	/*background-color:White;*/
+	float:left;
+	/*border:solid 2px #acbed6;*/
+	/*color:#5377A9;*/
+}
+
+.P60PayIncomeTaxColDIV
+{
+	width:300px;
+	/***OPD eP60 2011: Change height from 325px***/
+	height:368px;
+	margin:0px 5px 5px 5px;	
+	/*background-color:White;*/
+	float:left;
+	/*border:solid 2px #acbed6;*/
+	/*color:#5377A9;*/
+}
+
+.P60OtherDetailsColDIV
+{
+	width:382px;
+	/*height:70px;*/			/**OPD HReV15: comment height**/
+	margin:0px 3px 5px 5px;	
+	/*background-color:White;*/
+	float:left;
+	/*border:solid 2px #acbed6;*/
+	/*color:#5377A9;*/
+}
+
+.P60EmployersUseColDIV 
+{
+    width: 382px;
+    /*height:110px;*/
+    margin: 0px 3px 5px 4px;
+    /*background-color:White;*/
+    float: left;
+    /*border:solid 2px #acbed6;*/
+    /*color:#5377A9;*/
+}
+
+.P60EmployersDetailsColDIV
+{
+	width:771px;				/**OPD HReV15: change from 500px to 499px**/
+	margin:0px 5px 5px 5px;		/**OPD HReV15: add padding**/
+	/*background-color:White;*/
+	float:left;
+	/*border:solid 2px #acbed6;*/
+	/*color:#5377A9;*/
+}
+
+.P60NIContributionsColDIV
+{
+	width:771px;				/**OPD HReV15: change from 770px to 771px**/
+	margin:0px 5px 5px 5px;	
+	/*background-color:White;*/
+	float:left;
+	/*border:solid 2px #acbed6;*/
+	/*color:#5377A9;*/
+}
+
+.P60TDData {
+	Font: 12px 'RobotoBold', sans serif normal;
+	color: #555d71;
+	word-break: break-word;
+}
+
+.P60TDAmtData {
+	text-align: right;
+	/**Look and Feel 16.1**/
+	Font: 12px 'RobotoBold', sans serif normal;
+	color: #555d71;
+}
+
+.P60TDLabel {
+	vertical-align: top;
+	/**Look and Feel 16.1**/
+	Font: 12px 'RobotoRegular', sans serif normal;
+	color: #555d71;
+}
+
+.P60SectionHeaderMiddle {
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_hrz_tile.gif);*/
+	background-color: White;
+	height: 30px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: 100%;
+	text-align: left;
+	color: #e94e0f;
+	Font: 17px 'RobotoRegular', sans serif normal;
+	font-weight: normal;
+	clear: none;
+	border-top: #c8cdd9 1px solid;
+	border-bottom: #c8cdd9 1px solid;
+	/*position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;*/
+}
+.P60SectionHeaderLeft {
+	background-position: left top;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_lftend.gif);*/
+	height: 30px;
+	border-left: #c8cdd9 1px solid;
+	border-top: #c8cdd9 1px solid;
+	border-top-left-radius: 5px;
+	background-color: White;
+}
+
+.P60SectionHeaderRight {
+	background-position: right top;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_rgtend.gif);*/
+	background-color: White;
+	height: 30px;
+	border-right: #c8cdd9 1px solid;
+	border-top: #c8cdd9 1px solid;
+	border-top-right-radius: 5px;
+}
+
+.P60RightCorner
+{
+	/*background-image: url(../App_Themes/_StyleSheet/Images/midcol_toprgt_corner.jpg);*/
+	background-image: url(../Ceridian/Images/midcol_toprgt_corner.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: fixed;
+	visibility: visible;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	height: 6px;
+	width: 7px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	background-attachment: fixed;
+}
+.P60LeftCorner
+{
+	background-attachment: fixed;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/midcol_toplft_corner.jpg);*/
+	background-image: url(../Ceridian/Images/midcol_toplft_corner.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: fixed;
+	visibility: visible;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+	float: left;
+	height: 6px;
+	width: 7px;
+	margin: 0px;
+	padding: 0px;
+}
+.P60MidColCorners
+{
+	background-color: #F5F5F5;
+	position: fixed;
+	visibility: visible;
+	width: 100%;
+	top: 0px;
+	height: 6px;
+	border: 0;
+	margin: 0;
+	padding: 0px;
+	z-index: 0;
+}
+
+.P60TablePos
+{
+	width: 100%;
+	background-color: white;
+}
+
+/**OPD HReV15**/
+.P60SectionHeaderLabel
+{
+	font-family: Helvetica, Arial, San Serif;
+}
+/**end OPD HReV15**/
+
+.P60Title
+{
+	visibility:hidden;
+	height:0px;
+}
+
+.SDP60TDLabel {
+	font-family: 'RobotoRegular' !important;
+	font-weight: normal !important;
+}
+
+.SDP60TDAmtData {
+	border-color: #f3a687 !important;
+}
+
+#ctl00_MCPH_MobileP60_btnPrintP60v15_btnprintpayslip i {
+	display: none;
+}

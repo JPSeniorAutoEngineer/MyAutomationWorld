@@ -1,0 +1,1183 @@
+﻿#Input
+{
+	border:2px inset;
+}	
+
+#OuterDIV
+{
+	/*background-image:url(./images/Stripeback.gif);*/
+	filter:progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr=#FFFFFF, endColorstr=#000000);
+	/*height:495;*/
+	color:blue;
+}
+
+#PID
+{
+	 left:25px; top:-50px;
+}
+
+/* DIV Styles */
+.SectionHeader
+{
+    /*font-weight:bolder;*/
+	height:15px;
+	font-size:12px;
+	text-align:center;
+	/*color:#e9f1fb;*/
+	color:black;
+	padding:5px 5px 5px 12px;
+	background-color:Blue;
+    /*filter:progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#BED5F6, endColorstr=#5b78a1);*/
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#4C6EB1, endColorstr=#4C6EB1);*/
+    width:100%;
+    /*border:1px dashed red;*/
+}
+
+.EmptySection
+{
+    visibility:hidden;
+}
+
+.DataArea, .DataAreaISSExtra, .DataAreaGEExtra {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 100%;
+	color: #5377A9;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.PayslipColTotal {
+	color: #5377A9;
+	height: 40px;
+	border-top: 1px solid #c8cdd9;
+	padding-right: 0px;
+	padding-left: 3px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	padding-top: 0px;
+	border-radius: 5px;
+}
+
+.NetPayTotal {
+	color: #5377A9;
+	height: 40px;
+	border-top: 1px solid #c8cdd9;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	padding-top: 0px;
+	border-radius: 5px;
+}
+
+/*GE Payslips*/
+.GENetPayTotal
+{
+	color: #5377A9;	
+	height: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	padding-top: 0px;
+	background-color: White;
+	border-radius: 5px;
+}
+
+.PSTable {
+	font-family: 'RobotoRegular';
+	color: #5377A9;
+	text-align: left; /*OPD HReV15*/
+}
+
+.GroupDIV {
+	padding: 5px 5px 5px 5px;
+	height: 60px;
+	font-family: 'RobotoRegular';
+	color: white;
+	width: 100%;
+}
+
+
+.EmpDetailsDIV
+{
+	width: 606px;
+	margin: 3px 3px 5px;
+	background-color: White;
+	float: left;
+	color: #5377A9;
+		
+}
+.PayHistoryDIV
+{
+	width:194px;
+	margin:3px 0px 3px 3px;
+	background-color:White;
+	float:left;
+	border:solid 2px #acbed6;
+	color:#5377A9;
+}
+
+.EmptyPeriods
+{
+    visibility:hidden;
+}
+
+.MiddleCOLDIV {
+	/***OPD Refresh: Change width from 191px***/
+	width: 240px;
+	background-color: white;
+	color: #5377A9;
+	height: 100%;
+	margin: 0px 1px 3px;
+	border: solid 1px #c8cdd9;
+	border-radius: 5px;
+}
+
+.EmpMiddleCOLDIV
+{
+	width:198px;
+	margin:3px 3px 3px 3px;	
+	background-color:White;
+	float:left;
+	color:#5377A9;
+}
+.RightCOLDIV
+{
+	width:189px;
+	background-color: White;
+	color: #5377A9;
+	padding-right: 3px;
+	margin: 3px 2px;
+	position: fixed;
+}
+
+.EmpRightCOLDIV
+{
+	width:198px;
+	margin:3px 0px 3px 3px;	
+	background-color:White;
+	float:left;
+	color:#5377A9;
+}
+.InfoDIV {
+	margin: 3px 0px 0px 2px;
+	/***OPD Refresh: Change width from 585px***/
+	width: 727px;
+	color: #5377A9;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 4px;
+	background-color: white;
+	border: 1px solid #c8cdd9;
+	border-radius: 5px;
+	
+}
+
+.EmpInfoDIV
+{
+	width: 606px;
+	margin: 5px 3px 3px 3px;
+	background-color: white;
+	float: left;
+	color: #5377A9;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-left-color: #acbed6;
+	border-bottom-width: 2px;
+	border-bottom-color: #acbed6;
+	border-top-color: #acbed6;
+	border-right-width: 2px;
+	border-right-color: #acbed6;
+}
+
+
+/* Pay item description: formatting for worked hours breakdown */
+.WorkedHoursTable {
+	font-weight: bold !important;
+	color: #455E81;
+	font: 15px 'RobotoRegular', sans-serif;
+}
+
+.WorkedHoursTablePrint {
+    font-weight: bold;
+    color: #455E81;
+    width: 55%;
+}
+
+/*Hover over description*/
+.DetailData
+{
+	font-weight: bold;
+	color: gray;
+	background-color: white;
+	width: 250px;
+	padding: 0px 0px 0px 5px;
+	filter: alpha(opacity=100);
+	z-index: 5;
+	
+}
+
+.LinkButton
+{
+	color:#ffffff;
+}
+
+A.LinkButton:link
+{
+	color:#ffffff;
+    text-decoration:underline;
+}
+
+A.LinkButton:visited 
+{     
+	color:#ffffff;
+    text-decoration:underline;
+}
+
+A.LinkButton:active
+{     
+    color:#ffffff;
+    font-weight:bold;
+}
+
+A.LinkButton:hover {
+	color: #ffffff;
+	font: 'RobotoRegular';
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+
+/* Stef's Modal Employee Search Popup*/
+.modalBackground
+{
+	background-color:Gray;
+	filter:alpha(opacity=25);
+}
+
+.modalPopup {
+	background-color: #f9d2c3;
+	color: #303642;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #e94e0f;
+	padding: 3px;
+	/*width: 450px;*/
+	position: absolute;
+}
+
+.UpdateProgress
+{
+	top: 50%;
+	left: 43%;
+	height: 48px;
+	width: 220px;
+	background-color: white;
+	/*border: solid 2px #5377A9;*/
+	font-size: 15px;
+	text-align: center;
+	filter: alpha(opacity=85);
+	/*vertical-align: middle;*/
+	z-index: 3;
+	/*color: #5377A9;*/
+	position: absolute;
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.LoadingContainer
+
+{
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+	left: 0;
+    background-color: rgb(170, 170, 170);
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.SettingsUpdateProgress
+{
+	top: 50%;
+	left: 20%;
+	height: 38px;
+	width: 220px;
+	background-color: white;
+	/*border: solid 2px #5377A9;*/
+	font-size: 15px;
+	text-align: center;
+	filter: alpha(opacity=85);
+	/*vertical-align: middle;*/
+	z-index: 3;
+	/*color: #5377A9;*/
+	position: absolute;
+	border-radius: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ADMIN PAYSLIP VIEWER STYLE DEFINITIONS */
+
+.EmpDetailsAdminDIV {
+	/***OPD Refresh: Change width from 585px***/
+	width: 731px;
+	background-color: White;
+	color: #5377A9; /*position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 1px;*/
+	/*text-align: center;*/
+	height: 100%;
+	margin: 0px 1px 4px;
+	border: solid 1px #c8cdd9;
+	border-radius: 5px;
+}
+
+
+.SearchDIV
+{
+	width:190px;
+	margin:5px 5px 5px 5px;
+	height:120px;
+	background-color:White;
+	text-align:center;
+	float:left;
+	/*position:absolute;
+	top:100px;
+	left:10px*/
+	border:solid 2px #acbed6;
+	color:#5377A9;		
+}
+
+.EmpIDStyle {
+	width: 65px;
+	height: 22px;
+	border: 1px solid #c8cdd9;
+	font-size: 14px !important;
+	color: #555d71;
+	margin-left: 5px;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px 1px #c8cdd9 inset
+}
+
+.RecentEmployees
+{
+	display:none;
+	height:385px;
+	width:200px;
+	margin:5px 5px 5px 5px;
+	background-color:White;
+	text-align:center;
+    position:absolute;
+    top:99px;
+    left:700px;
+	border:solid 2px #acbed6;
+	color:#5377A9;
+}
+
+.SuppressDIV
+{
+	margin: 5px 0px 3px 3px;
+	/***OPD Refresh: Change width from 585px***/
+	width: 735px;
+	color: #555d71;
+	position: relative;
+	overflow-y: auto;
+	overflow-x: hidden;
+	padding-right: 3px;
+	text-align: left;
+}
+
+.EmpPrint
+{
+	width:606px;
+	margin:0px 0px 3px 3px;
+}
+
+.TDData {
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoBold';
+	font-size: 12px;
+	color: #555d71;
+	word-break: break-word;
+}
+
+.TDAmtData {
+	/**Look and Feel 16.1**/
+	font-family: 'RobotoBold';
+	font-size: 12px;
+	color: #555d71;
+	text-align: right;
+}
+
+.TotaLabel {
+	font-family: 'RobotoBold';
+	font-size: 14px;
+	color: #555d71;
+	text-align: left;
+}
+
+.TotalData {
+	font-family: 'RobotoBold';
+	font-size: 14px;
+	color: #555d71;
+	text-align: right;
+}
+
+.TDWidth
+{ 
+width: 200px; 
+}
+
+.LeftPanel
+{
+	width:194px;
+	margin:3px 0px 3px 3px;
+	height:60px;
+	background-color:White;
+	text-align:center;
+	float:left;
+	border:solid 2px #acbed6;
+	color:#5377A9;	
+}
+
+
+.LeftSectionHeader
+{
+	background-image:url(Images/PartCenter.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+    color: #003399;
+    font-weight: bold;
+    padding-top: .5ex;
+    padding-bottom: .5ex;
+}
+
+.IconColumn
+{
+	/***OPD Refresh: drop blue background***/
+	/*background-color: #e9f1fb;*/
+	width: 12px;
+	/**Look and Feel 16.1**/
+	font-size: 11px;
+}
+
+.AdminLeftPanel
+{
+	margin: 0px 5px 5px;
+	width: 175px;
+	/*padding-right: 3px;
+	padding-left: 3px;*/
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+.SearchPanel {
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	background-color: White;
+	border-right: #c8cdd9 1px solid;
+	border-left: #c8cdd9 1px solid;
+	border-bottom: #c8cdd9 1px solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.DataLeftPanel {
+	background-color: White;
+	padding-left: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	border-right: #c8cdd9 1px solid;
+	border-left: #c8cdd9 1px solid;
+	border-bottom: #c8cdd9 1px solid;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding: 1ex 0px 1ex 1ex;
+}
+.HeaderDiv
+{
+	text-align:center;
+}
+
+.RightCorner
+{
+	/*background-image: url(../App_Themes/_StyleSheet/Images/midcol_toprgt_corner.jpg);*/
+	background-image: url(../Ceridian/Images/midcol_toprgt_corner.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: fixed;
+	visibility: visible;
+	z-index: 1;
+	top: 0px;
+	right: 0px;
+	height: 6px;
+	width: 7px;
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	background-attachment: fixed;
+}
+.LeftCorner
+{
+	background-attachment: fixed;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/midcol_toplft_corner.jpg);*/
+	background-image: url(../Ceridian/Images/midcol_toplft_corner.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	position: fixed;
+	visibility: visible;
+	z-index: 0;
+	left: 0px;
+	top: 0px;
+	float: left;
+	height: 6px;
+	width: 7px;
+	margin: 0px;
+	padding: 0px;
+}
+.MidColCorners
+{
+	background-color: #F5F5F5;
+	position: fixed;
+	visibility: visible;
+	width: 100%;
+	top: 0px;
+	height: 6px;
+	border: 0;
+	margin: 0;
+	padding: 0px;
+	z-index: 0;
+}
+
+.SectionHeaderMiddle {
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_hrz_tile.gif);*/
+	/*background-image: url(../Ceridian/Images/payslip_hdr_hrz_tile.gif);
+	background-repeat: repeat-x;
+	background-position: top;*/
+	height: 30px; /*OPD HReV15*/
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: 100%;
+	text-align: Left;
+	/*color: #003399;*/
+	color: #e94e0f;
+	font-family: 'RobotoRegular', San Serif;
+	font-size: 17px;
+	font-weight: normal;
+	clear: none;
+	border-bottom: 1px solid #c8cdd9;
+	/*padding-right: 8px;
+	padding-left: 8px;*/
+	/*position: fixed;
+	overflow-y: auto;
+	overflow-x: hidden;*/
+}
+
+.SectionHeaderLeft
+{	
+	background-position: left top;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_lftend.gif);*/
+	/*background-image: url(../Ceridian/Images/payslip_hdr_lftend.gif);
+	background-repeat: no-repeat;*/
+	height: 30px; /*OPD HReV15*/
+}
+
+.SectionHeaderRight
+{
+	background-position: right top;
+	/*background-image: url(../App_Themes/_StyleSheet/Images/payslip_hdr_rgtend.gif);*/
+	/*background-image: url(../Ceridian/Images/payslip_hdr_rgtend.gif);	
+	background-repeat: no-repeat;*/
+	height: 30px; /*OPD HReV15*/
+}
+
+#baseNetPayBackground {
+	background-color: #f3a687;
+	display: inline-block;
+	height: 26px;
+	position: relative;
+	width: 60px;
+	border-radius: 2px;
+}
+
+#baseNetPayBackground:before {
+	border-bottom: 14px solid transparent;
+	border-top: 14px solid transparent;
+	border-left: 14px solid #f3a687;
+	content: "";
+	height: 0;
+	position: absolute;
+	right: -13px;
+	top: 0;
+	width: 0;
+}
+
+.NetPayLabel {
+	padding-top: 5px;
+	font-family: 'RobotoBold';
+	font-size: 14px;
+	color: #555d71;
+}
+
+.SDNetPayLabel {
+	text-align: left;
+	position: absolute;
+}
+
+.InfoDataArea {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 100%;
+	color: #5377A9;
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-bottom: 5px;
+}
+
+.PagePos
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.TablePos
+{
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+.LeftPanelList
+{
+	line-height: 15px;
+	margin-left: 3px;
+}
+           
+.EmpPayslipTitleIcon
+{
+	display: none;
+} 
+.AdminPayslipTitleIcon
+{
+	background-position: left;
+	/*image removed from folder*/
+	/*background-image: url(../CeridianV15/Images/AdminPayslip_title.GIF);*/
+	background-repeat: no-repeat;
+	height: 56px;
+} 
+
+.divPayslipCtrl
+{
+	/*position: relative;
+	left: 50%;
+    margin-left: -500px;
+	display:block;*/
+	width: 975px;
+	background-color: #F5F5F5;
+}
+
+.divPaymentHistory {
+	width: 176px;
+	/*float:left;
+	padding: 0ex .5em 0ex .5em*/
+}
+
+.divPayslipLeft
+{
+	width: 185px; 
+	float:left;
+	padding-bottom: 5px;
+}
+
+.SDdivPayslipLeft {
+	padding-top:5px;
+}
+
+.divPayslipRight {
+	float: right;
+}
+
+/*
+.MessageContent
+{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	color: #5377A9;
+	height:100%;
+	background-color: White;
+	border-right: #ccc 1px solid;
+	border-left: #ccc 1px solid;
+	border-bottom: #ccc 1px solid;
+}*/
+
+.ImgPayslipDetails
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_my_details.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipAllowance
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_payments.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipDeduction
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_deductions.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipTotals
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_totals.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipTotals
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_totals.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipMessages
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_messages.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipHistory
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_history.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.ImgPayslipHelp
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_help.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipDiscovery
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_discovery.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.ImgPayslipView
+{
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../Ceridian/Images/payslip_view.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.arrowdown
+{
+	width: 20px;
+	height: 16px;
+	background-image: url(../_StyleSheet/Images/arrow_down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.arrowup
+{
+	width: 20px;
+	height: 16px;
+	background-image: url(../_StyleSheet/Images/arrow_up.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+/*.SectionHeaderMiddleMessage
+{
+	background-color: White;
+	height: 39px;
+	padding-bottom: 4px;
+	padding-top: 4px;
+	width: 100%;
+	text-align: Left;
+	color:#0053A4;
+	font-family: 'RobotoRegular', San Serif;
+	font-size:17px;
+	font-weight:normal;
+	clear: none;
+	border-top: #d3d3d3 1px solid;
+	border-bottom: #d3d3d3 1px solid;	
+}*/
+
+.ui-widget.ui-widget-content {
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	box-shadow: 0px 5px 8px rgb(48 54 66 / 50%);
+}
+
+.ui-widget-overlay {
+	background: rgb(200 200 200) !important;
+	opacity: 0.5 !important;
+}
+
+.ui-widget-header, .ui-state-default, .ui-button {
+	background: #929bb3;
+	border: 1px solid #929bb3;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/**style for popup dialog buttons**/
+.ui-dialog .PayslipDialogButton {
+	background: #e94e0f;
+	color: #fff;
+	border: 1px solid #e94e0f;
+	border-radius: 3px;
+	min-width: 120px;
+	height: 35px;
+	font-size: 17.6px;
+	font-family: 'RobotoRegular';
+}
+
+.ui-dialog .PayslipDialogButton:hover {	
+	color: #fff;
+    background-color: #ee7a4b;
+    border-color: transparent;
+    box-shadow: 0 4px 8px #3036421a; 
+}
+
+.TreeView
+{
+	background-color:#F5F5F5;
+	font-size: 8pt;
+	display:block;
+}
+
+.ParentNode
+{
+	background-color:#F5F5F5;
+	font-size: 11pt;
+	display:block; /**allow click on the whole grey background**/
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.ChildNode
+{
+	background-color:white;
+	font-size: 11pt;
+	display:block;
+}
+
+/**remove underline in treeview nodes**/
+a.ChildNode:hover, a.ChildNode, a.ParentNode:hover, a.ParentNode
+{ 
+	text-decoration: none; 
+}
+
+.EmpPayslipTitle
+{
+	visibility:hidden;
+	height:0px;
+}
+
+.EmpPayslipPrint
+{
+	visibility:visible;
+	height:35px;
+	background-color: White;
+	margin-bottom:5px;	
+}
+
+/**button for Print Payslip & Admin Payslip**/
+#StandardHeader
+{
+	visibility:visible;
+	height:35px;
+	background-color: White;
+	margin-bottom:5px;
+}
+
+#StandardHeader input {
+                padding: 10px 10px 10px 0px;
+                background-color: transparent;
+                border: 0px solid blue;
+                background-repeat: no-repeat;
+                background-position: 5px center;
+                text-indent: 25px;
+				color: #303642;
+                cursor: pointer;
+}
+
+/**US 127499 Mobile Payslip + EP60 - As an Employee , I want to be able to print my P60 from OPD from the Mobile App.**/
+#StandardHeader .mobilePrint input {
+    padding: 5px 15px 5px 0px;
+}
+
+#StandardHeader input:hover, #StandardHeader input:active, 
+#StandardHeader input:focus {
+                outline: none;
+                background-color: rgb(240,240,240);
+}
+
+#StandardHeader #StandardHeaderToolbar_StandardHeaderActionsContainer
+{
+	display: inline-block;
+	position: relative;
+	float:left;
+}
+
+#StandardHeader .buttonPrint input {
+	font-family: 'RobotoRegular';
+}
+
+#StandardHeader .buttonPrint .icon {
+	padding: 6px 5px;
+	position: absolute;
+	cursor: pointer;
+}
+
+#StandardHeader .buttonPrint:hover {
+	outline: none;
+	background-color: rgb(240,240,240);
+}
+
+#ctl00_MCPH_udpPayslipTreeView img {
+	padding-top: 5px;
+}
+
+#ctl00_MCPH_udpPayslipTreeView a.ChildNode:hover {
+	color: #cc3d03 !important;
+	text-decoration: underline !important;
+}
+
+#StandardHeader .buttonViewP60 {
+	background-image: url(../_StyleSheet/Images/payslip_viewp60.png);
+}
+
+#ctl00_MCPH_updPnlPrintButton {
+	display: flex;
+}
+
+/**US 127232 Mobile Payslip + EP60 - As an Employee , I want to be able to print my online payslip (OPD)  from the Mobile App.**/
+#MobileOPDHeader {
+	visibility: visible;
+	height: 35px;
+	background-color: White;
+	margin-bottom: 5px;
+}
+
+#MobileOPDHeader input, #MobilePrintP45Header input {
+    padding: 10px 15px 10px 0px;
+    background-color: transparent;
+    border: 0px solid blue;
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    text-indent: 25px;
+    cursor: pointer;
+}
+
+#MobileOPDHeader .mobilePrint input, #MobilePrintP45Header .mobilePrint input {
+    padding: 5px 15px 5px 0px;
+}
+
+#MobileOPDHeader input:hover, #MobileOPDHeader input:active,
+#MobileOPDHeader input:focus, #MobilePrintP45Header input:hover, #MobilePrintP45Header input:active,
+#MobilePrintP45Header input:focus {
+    outline: none;
+    background-color: rgb(240,240,240);
+}
+
+#MobileOPDHeader .buttonMobilePrint, #MobilePrintP45Header .buttonMobilePrint {
+    background-image: url(../_StyleSheet/Images/payslip_print.png);
+    width: 30px;
+}
+
+/**Look and Feel 16.1**/
+.ui-dialog .ui-dialog-content
+{
+	background-color:White;
+}
+
+/**Bug #178931: Employee having 5 worked hours is not showing the scroll bar and not even the close button.**/
+div #dialog.ui-dialog-content.ui-widget-content {
+    overflow: auto !important;
+    max-Height: 40vh !important;
+}
+
+
+.PSLabel {
+	font-family: 'RobotoRegular';
+	font-size: 12px;
+	color: #555d71;
+	text-align: left;
+}
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    text-align: center;
+    float: none !important;
+} 
+
+.ui-button-text-only .ui-button-text {
+	padding: 0px 0px
+}
+
+@media only screen and (min-width: 500px) {
+    .WorkedHoursTable {
+        color: rgb(85, 85, 85);
+    }
+}
+
+.ui-widget {
+	font-family: 'RobotoRegular'
+}
+
+.ui-dialog-title {
+	font-family: 'RobotoBold';
+	font-weight: normal;
+}
+
+.InfoDIV .InfoDataArea .TDData {
+	font-family: 'RobotoRegular' !important;
+}
+
+.ui-widget-content {
+	color: #555d71;
+}
+
+.eemessagebutton {
+	position: absolute;
+	right: 15px;
+	top: 9px;
+	font-size: 15px;
+}
+
+#divEmpSearch {
+	padding: 0;
+}
+
+#divEmpSearch .modalPopup {
+	background-color: transparent;
+	border: none;
+	width: 100%;
+}
+
+#divEmpSearch #ctl00_MCPH_updEmployeeSearch {
+	padding: 5px;
+}
+
+#divEmpSearch .GridView th {
+	background-color: transparent;
+	border-right: 1px solid #c8cdd9;
+	border: 1px solid #c8cdd9;
+	line-height: 26px;
+	color: #555d71;
+	font-weight: normal;
+	font-size: 1.1em;
+}
+
+#divEmpSearch .GridView td {
+	border-right: 1px solid #c8cdd9;
+	border-bottom: 1px solid #c8cdd9;
+	border-left: 1px solid #c8cdd9;
+	font-size: 14px;
+}
+
+#divEmpSearch .GridView td:last-child {
+	border-right: 1px solid #c8cdd9;
+}
+
+#divEmpSearch .GridView {
+	width: 100%;
+}
+
+#divEmpSearch .SDrdoSearchEmployee {
+	transform: scale(1.3, 1.3);
+	cursor: pointer;
+	position: absolute;
+	margin-top: 11.5px;
+}
+
+#divEmpSearch .EmpIDStyle {
+	margin-left: -1px;
+	margin-top: 1px;
+}
+
+.ui-widget-content a {
+	color: #e94e0f;
+}
+
+.ui-widget-content span {
+	font-family: 'RobotoBold';
+}
+
+.ui-widget-content a:hover {
+	color: #cc3d03;
+	text-decoration: underline;
+}
+
+#ctl00_MCPH_grdRec td a {
+	font-family: 'RobotoRegular' !important;
+	color: #e94e0f !important;
+	font-size: 12px !important;
+}
+
+.no-border {
+	border: none !important;
+}

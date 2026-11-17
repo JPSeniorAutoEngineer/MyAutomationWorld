@@ -1,0 +1,26 @@
+Automation Tester
+Overall purpose of role: 
+
+- Under minimal supervision, create Automation scripts - estimates, scripts, pre and post conditioning.
+- Executes Automated Tests and collates evidence for Test automation progress reporting and tracking.
+- Articulates the tests executed, data used, the results and defects to project stakeholders
+
+Key Accountabilities: 
+
+- Participate in discussions with functional team to understand the gherkin tests along-with required Pre and Post conditions.
+- Create query log/ mind map/ flow charts
+- Create Automation code using Java, Selenium, JQuery, Cucumber.
+- Set up and Execute Automated tests and record evidence.
+- Raise defects with appropriate amount of details
+- Hand-over the automated scripts post stabilization to functional release teams and feature teams.
+- Constant communication and follow-ups with various stake holders to track deliverable during test automation and dry-run phases where applicable. Escalate issues to LM as appropriate
+- Complete tasks / deliverables within schedule constraints (for self)
+- Provide guidance to other team members on technology/ application queries.
+
+Person Specification: 
+
+- Exposure to Automation testing using Selenium, Java, Cucumber and JQuery.
+- Should have exposure to Agile methodologies, Jenkins set-up and some banking domain exposure.
+- Should possess high analytical and problem solving skills. 
+- Quite often the role will require an individual to impact assess critical and complex test automation problems (such as framework/approach/interdependencies/GUI design/test data to be used etc) in short time durations hence having significant knowledge on the HTML DOM structure and application (ROLB) will be the key.
+

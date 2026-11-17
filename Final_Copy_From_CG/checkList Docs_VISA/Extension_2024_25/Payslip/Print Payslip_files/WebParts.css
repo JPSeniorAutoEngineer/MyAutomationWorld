@@ -1,0 +1,44 @@
+﻿.WebPartZoneHeader td
+{
+    color: #999999;
+    text-align: center;
+}
+.WebPartZone
+{
+}
+.WebPartTitle td
+{
+    color: #F6F6F6;
+    border-top: solid .5ex #EBF4FF;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#DCEBFE, endColorstr=#A2C0EA);
+    font-weight: bold;
+    padding: 0ex .5em .5ex .5em;
+}
+.WebPartChrome
+{
+}
+.WebPart
+{
+}
+.WebPart a
+{
+    color: #003399;
+}
+
+.WebPartDesignPanel
+{
+    background-color: #E1ECFC;
+    margin-left: .5em;
+    padding: 1ex 1em 1ex 1em;
+}
+
+.WebPartDesignZoneHeader
+{
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#CCCCCC, endColorstr=#DDDDDD);
+}
+.WebPartDesignZone
+{
+    border: outset 1px;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#FFFFFF, endColorstr=#EEEEEE);
+}
+

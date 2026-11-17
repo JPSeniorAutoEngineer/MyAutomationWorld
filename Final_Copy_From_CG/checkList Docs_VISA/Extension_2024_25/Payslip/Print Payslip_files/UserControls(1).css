@@ -1,0 +1,205 @@
+﻿/* UserControls.css */
+
+/* Header UserControl */
+
+.HeaderLeftPanel
+{
+    /*background-position: top left;
+    background-repeat: no-repeat;*/
+    background-image:none !important;
+}
+.HeaderRightPanel
+{
+    /*background-position: top right;
+    background-repeat: no-repeat;*/
+    background-image:none !important;
+}
+
+/* Workflow UserControl */
+.WorkflowTable
+{
+    background-color: #FFFFFF;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    border: outset 1px;
+}
+.WorkflowTableCell
+{
+    padding: 1ex 1em 1ex 1em;
+}
+
+/* AbsoluteMenu UserControl */
+.AbsoluteMenuPanel {
+	background-color: #e3e6ef;
+	border-top: solid 1px #c8cdd9;
+	border-bottom: solid 1px #c8cdd9;
+}
+
+table.ASMI td, /* IE & Firefox */
+span.ASMI /* Chrome */
+{
+    padding: 1.25ex .39em 1.25ex .39em;
+} 
+span.ASMI
+{
+       display: inline-block;
+}
+
+.ASMI a {
+	/*color: #000000;*/
+	/**Look and Feel 16.1 : Links on Menu (e.g. Applications, Settings...)**/
+	color: #303642;
+}
+.ASMI a:hover
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.ADM
+{
+	/**Look and Feel 16.1 : Drop down menus**/
+
+    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr=#E5EEFD, endColorstr=#FFFFFF);    
+    background: -moz-linear-gradient(top, #E5EEFD 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(top, #E5EEFD 0%,#FFFFFF 100%);
+	background: -o-linear-gradient(top, #E5EEFD 0%,#FFFFFF 100%);
+	background: -ms-linear-gradient(top, #E5EEFD 0%,#FFFFFF 100%);
+	background: linear-gradient(to bottom, #E5EEFD 0%,#FFFFFF 100%);*/
+	background: white;
+}
+.ADM table
+{
+    border: solid 1px #999999;
+    /*width: 100%;*/ /**OPD HReV15**/
+}
+.ADM table table
+{
+    border: none;
+}
+.ADMI
+{
+	/**Look and Feel 16.1 : Drop down menus items**/
+    padding: .6ex .4em .6ex .4em;
+    height:30px;	
+}
+.ADMI a
+{
+	/**Look and Feel 16.1 : Drop down menus items links**/
+    /*color: #000000;*/
+    color: #303642;
+}
+.ADMI a:hover
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.ADH
+{
+    /*background-color: #CDD7F5;*/
+    background-color: rgb(224, 227, 229);
+}
+
+/* SiteMapPath (part of Default.master, not really a UserControl */
+.SiteMapPathTable {
+	/**Look and Feel 16.1**/
+	/*background-color: #CDD7F5;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', gradientType=1, startColorstr=#CDD7F5, endColorstr=#FFFFFF);
+    background: -moz-linear-gradient(left, #CDD7F5 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(left, #CDD7F5 0%,#FFFFFF 100%);
+	background: -o-linear-gradient(left, #CDD7F5 0%,#FFFFFF 100%);
+	background: -ms-linear-gradient(left, #CDD7F5 0%,#FFFFFF 100%);
+	background: linear-gradient(to right, #CDD7F5 0%,#FFFFFF 100%);*/
+	/*background-color: rgb(51,106,178);*/
+	/*Use SDWorx Webkit Primary color*/
+	background-color: transparent;
+	border-bottom: 1px solid #adb4c6;
+	min-height: 4ex;
+}
+.SiteMapPathTable td
+{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	/**Look and Feel 16.1**/
+	color: #303642;
+	font-size:13px;
+}
+.SiteMapPath a
+{
+    text-decoration: none;
+    /**Look and Feel 16.1**/
+    color: #303642;
+}
+.SiteMapPath a:hover
+{
+    text-decoration: underline;
+}
+
+.LeftPlaceHolder
+{
+	background-color: #F5F5F5;
+	width: 200px;
+}
+.CrossPlaceHolder
+{
+	background-color: #F5F5F5;
+	/*background-color: #CDD7F5;*/
+	height: 1ex;
+}
+.MainPlaceHolder
+{
+	background-color: #F5F5F5;
+}
+.RightPlaceHolder
+{
+	background-color: #F5F5F5;
+	width: 200px;
+}
+
+.RaisedPanel
+{
+	PADDING-RIGHT: 1em;
+	PADDING-LEFT: 1em;
+	PADDING-BOTTOM: 1em;
+	WIDTH: 100%;
+	PADDING-TOP: 1em;
+	BACKGROUND-COLOR: #FFFFFF;
+	
+	/*BORDER-RIGHT: 1px outset;
+	BORDER-TOP: 1px outset;
+	BORDER-LEFT: 1px outset;
+	BORDER-BOTTOM: 1px outset;*/
+	
+	/**Look and Feel 16.1**/
+	box-shadow: 3px 3px 10px rgb(218, 218, 218);
+}
+
+.ApplicationsMenu
+{
+	/**background-image: url(Images/TopBackground.jpg);**/
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 2.5ex;
+	padding-top: .5em;
+}
+
+/**Look and Feel 16.1: Favourite & Help Menu**/
+.staticMenuItem {
+	background-color: transparent;
+}
+
+.staticMenuItem td {
+	font-size: 15px;
+}
+
+/**Look and Feel 16.1: Manage Users Status**/
+.ItemSpace
+{
+    line-height:2em;     
+}
+
+#ctl00_HeaderCell {
+	background-color: #f1f4f8;
+}
+
+.PaddedPanel {
+	border-radius: 5px;
+}

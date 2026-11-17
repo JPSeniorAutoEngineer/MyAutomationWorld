@@ -1,0 +1,359 @@
+﻿/* WebControls.css */
+
+/* GridView */
+
+:root {
+	--white: #fff;
+	--black: #000;
+	--text-color: #303642;
+	--primary: #e94e0f;
+	--accent: #870b58;
+	--red-brand: #e4003a;
+	--yellow-brand: #f8ad07;
+	--success: #21bc5f;
+	--info: #415fca;
+	--warning: #ffc700;
+	--danger: #ff005c;
+	--light: #f8f9fb;
+	--dark: #303642;
+	--primary-140: #982d01;
+	--primary-120: #cc3d03;
+	--primary-60: #ee7a4b;
+	--primary-40: #f3a687;
+	--primary-20: #f9d2c3;
+	--accent-140: #520234;
+	--accent-120: #740048;
+	--accent-60: #a54881;
+	--accent-40: #c385ab;
+	--accent-20: #e1c2d5;
+	--red-brand-140: #8c0024;
+	--red-brand-120: #bf0031;
+	--red-brand-60: #ea3f6b;
+	--red-brand-40: #f17f9c;
+	--red-brand-20: #f8bfcd;
+	--yellow-brand-140: #a56301;
+	--yellow-brand-120: #f29100;
+	--yellow-brand-60: #f9c145;
+	--yellow-brand-40: #fbd683;
+	--yellow-brand-20: #fdeac1;
+	--info-140: #263879;
+	--info-120: #334ba1;
+	--info-80: #677fd4;
+	--info-60: #8d9fdf;
+	--info-40: #b3bfe9;
+	--info-20: #d9dff4;
+	--warning-140: #987700;
+	--warning-120: #cb9f00;
+	--warning-80: #ffd233;
+	--warning-60: #ffdd66;
+	--warning-40: #ffe899;
+	--warning-20: #fff3cc;
+	--danger-140: #980037;
+	--danger-120: #cb0049;
+	--danger-80: #ff337c;
+	--danger-60: #ff669d;
+	--danger-40: #ff99bd;
+	--danger-20: #ffccde;
+	--success-140: #137038;
+	--success-120: #1a964b;
+	--success-80: #4dc97f;
+	--success-60: #79d69f;
+	--success-40: #a6e4bf;
+	--success-20: #d2f1df;
+	--tuna-gray: #303642;
+	--tuna-gray-80: #555d71;
+	--tuna-gray-60: #7f8594;
+	--tuna-gray-40: #aaaeb8;
+	--tuna-gray-20: #d4d6db;
+	--tuna-gray-10: #e9eaed;
+	--tuna-gray-5: #f9f9f9;
+	--slate-gray: #7783a0;
+	--slate-gray-80: #929bb3;
+	--slate-gray-60: #adb4c6;
+	--slate-gray-40: #c8cdd9;
+	--slate-gray-20: #e3e6ef;
+	--slate-gray-10: #f1f4f8;
+	--slate-gray-5: #f8f9fb;
+	--table-border: #e3e6ef;
+	--breakpoint-xs: 0;
+	--breakpoint-sm: 576px;
+	--breakpoint-md: 768px;
+	--breakpoint-lg: 992px;
+	--breakpoint-xl: 1200px;
+	--breakpoint-xxl: 1920px;
+	--bs-table-striped-bg: #f9f9f9;
+}
+
+.text-tunagray-80 {
+	color: #555d71;
+}
+.GridView
+{
+    
+}
+
+	.GridView th {
+		background-color: #929bb3;
+		border-right: 1px solid #c8cdd9;
+		font: 18px 'RobotoRegular', sans-serif normal;
+		color: white;
+		Line-height: 36px;
+		padding: 0px 10px 0px 10px;
+	}
+
+/* Link in the GridView Hearder */
+.GridView th a
+{
+    color: #FFFFFF;     
+}
+
+/** set height of all rows in gridview **/
+	.GridView td {
+		/**Look and Feel 16.1**/
+		border-right: 1px solid #c8cdd9;
+		border-bottom: 1px solid #c8cdd9;
+		Font: 15.4px 'RobotoRegular', sans serif normal;
+		color: #303642;
+		Line-height: 36px;
+		padding: 0px 10px 0px 10px;
+	}
+
+.GridViewCustomReports td {
+	/**#50898: remove border for gridview on custom reports**/
+	Font: 15.4px 'RobotoRegular', arial, sans serif normal;
+	color: #303642;
+	Line-height: 36px;
+	padding: 0px 10px 0px 10px;
+}
+
+/** apply background color to rows and alternate rows **/
+.AlternateRowStyle
+{
+	/*background-color: White;	*/
+	/**Look and Feel 16.1**/
+	background-color: #f9f9f9 !important;
+}
+
+.RowStyle
+{
+	/*background-color: #F7F7F7;	*/
+	/**Look and Feel 16.1**/
+	background-color: rgb(255, 255, 255);
+}
+
+/**GridView: Remove Border of last column**/
+.GridView td:last-child {
+    Border-right: none;
+}
+
+/* ReportViewer */
+.ReportViewer 
+{
+     background-color: #FFFFFF; 
+    border-right-style:solid;
+    border-right-color:InactiveBorder;
+    border-bottom-width:1px;
+    border-right-width:1px; 
+    border-bottom-style:solid;
+    border-bottom-color:InactiveBorder;
+    
+ }
+
+.ReportViewer div #ctl00_MCPH_MainViewer_MainReportViewer_ctl05_ctl04_ctl00_Menu 
+{
+    background-color: white !important;
+}
+
+
+/**All Texts & Labels in table columns across Portal**/
+table td {
+	Font: 15px 'RobotoRegular', sans-serif;
+	color: #303642;
+}
+
+/**All Textboxes across Portal**/
+.Textbox {
+	font: 16px 'RobotoRegular', sans serif normal;
+	color: #303642;
+	height: 28px;
+	border: 1px solid rgb(211, 211, 211);
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px 1px rgb(218, 218, 218) inset;
+	text-indent: 4px;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.Textbox:focus-visible {
+    outline:  hidden !important;
+}
+
+/**CheckBox and RadioButtons across Portal: Increase size and include more space between lines**/
+.CheckBox input, .CheckBoxList input,
+.RadioButton input, .RadioButtonList input
+{
+	margin: 6px 8px 6px 4px;
+	transform: scale(1.5, 1.5);
+}
+
+/**CheckBox and RadioButtons across Portal: Increase font size of Labels**/
+.CheckBox Label, .CheckBoxList Label, .RadioButton Label, .RadioButtonList Label {
+	font-family: 'RobotoRegular', sans-serif;
+	font-size: 15px;
+	color: rgb(85, 85, 85);
+	line-height: 28px;
+}
+
+/**All DropDownList across Portal**/
+.DropDownListClass {
+	background: white;
+	font: 15.4px 'RobotoRegular', sans serif normal;
+	color: #303642;
+	height: 28px;
+	border: 1px solid #e94e0f;
+	border-radius: 2px;
+	box-shadow: 0px 0px 1px 1px rgb(218, 218, 218) inset;
+	padding-left: 2px;
+}
+
+/**All Buttons across Portal**/
+.Button {
+	text-align: center;
+	background-color: #e94e0f;
+	border: 1px solid #e94e0f;
+	border-radius: 3px;
+	min-width: 120px;
+	height: 35px;
+	font-size: 17.6px;
+	font-family: 'RobotoRegular';
+	color: rgb(255, 255, 255);
+	padding: 6px 2px 6px 2px;
+	-webkit-appearance: none; /**Safari: to remove rounded end on buttons **/
+	cursor: pointer;
+}
+
+.Button:Hover, .Button:Active, .Button:Focus {
+	color: #fff;
+	background-color: #ee7a4b;
+	border-color: transparent;
+	box-shadow: 0 4px 8px #3036421a;
+}
+
+b, strong {
+	font-weight: normal;
+	font-family: 'RobotoBold' !important;
+}
+
+.ModalPanel {
+	border-radius: 5px;
+	box-shadow: 0px 5px 8px rgb(48 54 66 / 50%);
+}
+
+.pn-modalBackground {
+	background: rgb(200 200 200) !important;
+	opacity: 0.5 !important;
+}
+
+.ModalPanel .modal-header {
+	background-color: #929bb3 !important;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font-family: 'RobotoRegular' !important;
+	font-weight: normal;
+}
+
+.ModalPanel .modal-body p {
+	font-family: 'RobotoRegular' !important;
+	font-weight: normal;
+}
+
+.ModalPanel .modal-footer {
+	background-color: transparent !important;
+	border-top: 1px solid #c8cdd9;
+}
+
+.GridView th {
+	font-family: 'RobotoBold' !important;
+	font-weight: normal !important;
+	font-size: 15px;
+}
+
+.ui-widget input {
+	font-family: 'RobotoRegular' !important;
+}
+
+#ctl00_MCPH_MainCurrentUsers_DropDownModuleList,
+.sdtext-bold {
+	font-family: 'RobotoBold' !important;
+	color: #303642 !important;
+	font-weight: normal !important;
+}
+
+#ctl00_MCPH_CentralisedPrinting_LblParagon,
+#ctl00_MCPH_CentralisedPrinting_lblHeader, #ctl00_MCPH_CentralisedPrinting_LblPeriodRunType {
+	color: #303642 !important;
+}
+
+#ctl00_MH_MainTimeout_ReminderPanel {
+	background-color: #f8ad07 !important;
+}
+
+#ctl00_MH_MainTimeout_TimeoutPanel {
+	background-color: #ff005c !important;
+}
+
+.sdtext-primary {
+	color: #e94e0f !important;
+}
+
+/* CSS only for FireFox browser */
+@-moz-document url-prefix() {
+	#ctl00_MCPH_MainCurrentUsers_DropDownModuleList {
+		font: -moz-pull-down-menu;
+		color: #303642 !important;
+	}
+}
+
+input:where([type="checkbox"], [type="radio"]) {
+	accent-color: #e94e0f;
+}
+
+/*Login page*/
+.ui-state-hover {
+	background:none!important;
+	background-color: #e94e0f !important;
+	color:white !important;
+}
+
+.ui-state-active {
+	background: #982d01 !important;
+	color: white !important;
+}
+
+.ui-datepicker table td {
+	font-size: 1em !important;
+}
+
+#ctl00_Footer_mnuCA a:hover {
+	color:white;
+}
+
+.LoginFieldsArea input[type=text],
+.LoginFieldsArea input[type=password],
+.SRSelect {
+	Font: 20px 'RobotoRegular', sans-serif !important;
+}
+
+.LoginScreenMainDiv, .LoginScreenMainDiv td, 
+.LoginButtons, .LoginButtonsRight, .LoginButtonsLeft {
+	font-family: 'RobotoRegular' !important;
+}
+
+#ctl00_Footer_mnuCA td {
+	font-size: 18px !important;
+	color: white;
+}
+
+.MessageHeader {
+	font-family: 'RobotoRegular' !important;
+}

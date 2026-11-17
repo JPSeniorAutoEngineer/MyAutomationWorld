@@ -1,0 +1,21 @@
+﻿/**Look and Feel 16.1: Remove a * for the icon links **/
+a 
+{
+    color: #e94e0f;
+}
+
+a:hover {
+    color: #cc3d03;
+}
+
+body
+{
+    background-color: #FFFFFF;
+}
+
+/**OPD HReV15: set color of disabled links to gray**/
+a[disabled]
+{
+   color: #aaaeb8;
+   text-decoration:none;
+}

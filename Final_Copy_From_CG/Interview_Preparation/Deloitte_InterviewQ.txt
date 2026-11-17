@@ -1,0 +1,50 @@
+JAVA CODING
+• Prime number without using Math library
+• Insert an element into an array
+• Remove duplicates from an array
+• Reverse a string while preserving whitespace
+• Reverse each word in a sentence
+• Reverse the complete sentence while keeping spaces
+🔹 SELENIUM – ADVANCED
+• Handling StaleElementReferenceException
+• Implicit, Explicit & Fluent Wait
+• Login → Add to Cart → Assert → Logout → Reporting
+• Handling dynamic elements
+• Frames, Alerts & Actions
+• Dynamic web tables
+• Handling duplicate UI elements with identical locators
+• findElement() vs findElements()
+🔹 FRAMEWORK & REPORTING
+• Explain your automation framework
+• Roles & responsibilities
+• Automation percentage and automation strategy
+• What should/shouldn't be automated?
+• Effort estimation for a medium-complexity Selenium script
+• Excel automation using Apache POI
+• Iterating through Excel rows and cells
+• Extent Reports & customizations
+• Screenshot capture on failure
+• Jenkins integration
+🔹 API / REST
+• Idempotent HTTP methods
+• API vs Microservices
+• Importance of API documentation
+• API testing experience
+🔹 SQL
+• Second-highest salary
+• LIMIT & OFFSET
+• Third-highest salary
+• Handling duplicate salaries
+🔹 DEVOPS / CI-CD
+• mvn clean vs mvn test vs mvn verify
+• Jenkins pipeline integration
+• Git commands
+• Git workflow
+🔹 MANAGERIAL / SCENARIO-BASED
+• Manual testing takes 10 minutes vs automation taking 10 minutes — which would you choose?
+• Comfort with languages beyond Java/Selenium
+• Toughest automation challenge
+• Handling flaky tests
+• Staying updated with automation trends
+• Previous work and strengths
+• Individual contribution to the automation framework

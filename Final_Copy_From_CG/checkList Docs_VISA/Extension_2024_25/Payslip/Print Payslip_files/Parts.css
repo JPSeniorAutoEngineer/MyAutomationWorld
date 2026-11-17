@@ -1,0 +1,121 @@
+﻿/* Part */
+TD.PartLeft {
+    background-color: White;
+    border-left: solid 1px #c8cdd9;
+    width: 8px; /*OPD HReV15*/
+    border-top-left-radius: 5px;
+}
+TD.PartCenter {
+    background-color: White;
+    color: black;
+    font-family: 'RobotoRegular';
+    font-size: 17px;
+    font-weight: normal;
+    height: 39px;
+    /*padding-bottom: 4px;
+	padding-top: 4px;*/
+    border-bottom: solid 1px #c8cdd9;
+    text-align: left; /*OPD HReV15*/
+    width: inherit; /*OPD HReV15*/
+}
+TD.PartRight {
+    background-color: White;
+    border-right: solid 1px #c8cdd9;
+    width: 8px; /*OPD HReV15*/
+    border-top-right-radius: 5px;
+}
+TD.PartLeft, TD.PartCenter, TD.PartRight {
+    border-top: solid 1px #c8cdd9;
+}
+TD.PartContent {
+    background-color: White;
+    border-left: solid 1px #c8cdd9;
+    border-right: solid 1px #c8cdd9;
+    border-bottom: solid 1px #c8cdd9;
+    padding: 1ex 1em 1ex 1em;
+    text-align: left; /*OPD HReV15*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Side Part */
+TD.SidePartLeft {
+    background-color: White;
+    border-left: solid 1px #c8cdd9;
+    width: 8px; /*OPD HReV15*/
+    border-top-left-radius: 5px;
+}
+TD.SidePartCenter {
+    background-color: White;
+    color: #e94e0f;
+    font-family: 'RobotoRegular';
+    font-size: 17px;
+    font-weight: normal;
+    height: 39px;
+    /*padding-bottom: 4px;
+	padding-top: 4px;*/
+    width: 100%;
+    border-bottom: solid 1px #c8cdd9;
+    text-align: left; /*OPD HReV15*/
+    width: inherit; /*OPD HReV15*/
+}
+TD.SidePartRight {
+    background-color: White;
+    border-right: solid 1px #c8cdd9;
+    width: 8px; /*OPD HReV15*/
+    border-top-right-radius: 5px;
+}
+TD.SidePartLeft, TD.SidePartCenter, TD.SidePartRight {
+    border-top: solid 1px #c8cdd9;
+}
+TD.SidePartContent {
+    background-color: White;
+    border-left: solid 1px #c8cdd9;
+    border-right: solid 1px #c8cdd9;
+    border-bottom: solid 1px #c8cdd9;
+    /***OPD Refresh: Change padding right from 1em***/
+    padding: 1ex 0px 1ex 1ex;
+    text-align: left; /*OPD HReV15*/
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* START Box Shadow  */
+TD.PartCenter, TD.SidePartCenter
+{
+    /*border-radius: 0;
+    border-top: 1px solid rgb(211,211,211);
+    -webkit-box-shadow:2px -5px 10px -5px rgb(230,230,230);
+    box-shadow: 2px -5px 10px -5px rgb(230,230,230);
+    background-color: White;*/
+}
+
+TD.PartLeft,TD.SidePartLeft
+{
+/*    border-radius: 0;
+    border-left: 1px solid rgb(211,211,211);
+    border-top: 1px solid rgb(211,211,211);
+    -webkit-box-shadow: -3px -3px 10px -2px rgb(230,230,230);
+    box-shadow: -3px -3px 10px -2px rgb(230,230,230);
+    background-color: White;*/
+}
+
+TD.PartRight,TD.SidePartRight 
+{
+    /*border-radius: 0;
+    border-right: 1px solid rgb(211,211,211);
+    -webkit-box-shadow: 5px -3px 10px -3px rgb(230,230,230);
+    box-shadow: 5px -3px 10px -3px rgb(230,230,230);
+    background-color: White;*/
+}
+
+TD.PartContent,TD.SidePartContent
+{
+    /*border-radius: 0;
+    border-right: 1px solid rgb(211,211,211);
+    -webkit-box-shadow: 0px 3px 10px 1px rgb(230,230,230);
+    box-shadow: 0px 3px 10px 1px rgb(230,230,230);
+    background-color: White;*/
+}
+
+/* END Box Shadow  */

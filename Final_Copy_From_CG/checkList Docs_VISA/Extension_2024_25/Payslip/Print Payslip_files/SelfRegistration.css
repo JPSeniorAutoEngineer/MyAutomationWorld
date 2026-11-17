@@ -1,0 +1,246 @@
+﻿body {
+}
+.SRSettingsPanel
+{
+	border-top-style: ridge;
+	border-right-style: ridge;
+	border-left-style: ridge;
+	border-bottom-style: ridge;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', gradientType=1, startColorstr=#CDD7F5, endColorstr=#FFFFFF);
+}
+
+.SRWizard
+{
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', gradientType=0, startColorstr=#CDD7F5, endColorstr=#FFFFFF);
+
+}
+
+.SRWizardStep
+{
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	padding-top: 1em;	
+}
+
+.SRWizardSideBar
+{
+	color:white;
+	font-size:13px;	
+	padding-left: 1em;	
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', gradientType=0, startColorstr=#4169E1, endColorstr=#CDD7F5);
+}
+
+.SRRaisedPanel
+{
+	border-right: 1px outset;
+	padding-right: 1em;
+	border-top: 1px outset;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	border-left: 1px outset;
+	width: 100%;
+	padding-top: 1em;
+	border-bottom: 1px outset;
+	background-color: #c5d5ff;
+}
+
+.SRTable
+{
+	background-color:#c5d5ff;
+	text-indent:2px;
+}
+
+.SRGridView
+{
+	background-color: white; 
+    padding-left:10em;
+	border-right-style:solid;
+    border-right-color:InactiveBorder;
+    border-bottom-width:1px;
+    border-right-width:1px; 
+    border-bottom-style:solid;
+    border-bottom-color:InactiveBorder;
+    font-family:Arial;
+    font-size:13px;
+    
+}
+
+.SRWaterMark
+{
+	background-color: lightyellow;
+	color: Gray;
+}
+
+.RSOAccordianHeader
+{
+	background-image:url(Images/SidePartCenter.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+	width: 100%;
+	height:30px;
+    color: #003399;
+    font-weight: bold;
+    padding-top: .10ex;
+    padding-bottom: .10ex;
+    padding-left: .10ex;
+}
+
+.RSOAccordianContent
+{
+	background-color:Yellow;
+	height:200px;
+	width:100%;
+}
+
+.RSOAccordionHeader
+{    
+    background-color: rgb(241, 241, 241);
+    color: rgb(0, 83, 164);
+	font-family: Helvetica, arial, sans serif normal;
+	font-size: 15px;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.RSOAccordionContent
+{
+    background-color: white;    
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.MessagePreview
+{
+	color: #455E81;
+	background-color: infobackground;
+	width: 500px;
+	height: 120px;
+	padding: 5px;
+	filter: alpha(opacity=90);
+	z-index: 5;
+	border-left-color: tan;
+	border-bottom-color: tan;
+	border-top-style: solid;
+	border-top-color: tan;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: tan;
+	border-bottom-style: solid;
+}
+
+.MessagePreviewHdr
+{
+	color: #455E81;
+	background-color: infobackground;
+	width: 500px;
+	padding: 5px;
+	filter: alpha(opacity=90);
+	z-index: 5;
+	border-left-color: tan;
+	border-top-style: solid;
+	border-top-color: tan;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: tan;
+}
+
+.SignOffComments
+{
+	color: #000000;
+	background-color: #BED4F5;
+	width: 300px;
+	height: 90px;
+	padding: 5px;
+	filter: alpha(opacity=90);
+	z-index: 5;
+}
+
+
+.labelSize
+{
+/* NE - CUSP00129500 - Change Font size from XX-Small to 9px because relative font size don't work properly in firefox */
+	font-family:Arial;
+	font-size:13px;
+	color: #858585;
+}
+
+.SRHeaderLabel
+{
+	font-size:13px;
+	font-weight:bold;
+	font-family:Arial;
+	color: #858585;
+}
+
+.SRTopLabel
+{
+	font-size:19px;
+	font-weight:bold;
+	font-family:Arial;
+	color: #858585;
+}
+
+.SRHeaderLeft
+{
+	background-position: left top;
+	background-image: url(../Ceridian/Images/registration_hdr_left.png);
+	background-repeat: no-repeat;
+	height: 30px;
+}
+
+.SRHeaderMiddle
+{
+	background-image: url(../Ceridian/Images/registration_hdr_middle.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 30px;
+	width: 100%;
+	padding-bottom: 9px;
+	text-align: center;
+	font-size: 19px;
+	color: white;
+	font-family: Arial;
+	clear: none;
+}
+
+.SRHeaderRight
+{
+	background-position: left top;
+	background-image: url(../Ceridian/Images/registration_hdr_right.png);
+	background-repeat: no-repeat;
+	height: 30px;
+}
+
+.SRHeaderActiveLeft
+{
+	background-position: left top;
+	background-image: url(../Ceridian/Images/registration_hdr_active_left.png);
+	background-repeat: no-repeat;
+	height: 30px;
+}
+
+.SRHeaderActiveMiddle
+{
+	background-image: url(../Ceridian/Images/registration_hdr_active_middle.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 30px;
+	width: 100%;
+	padding-bottom: 9px;
+	text-align: center;
+	font-size: 19px;
+	color: white;
+	font-family: Arial;
+	clear: none;
+}
+
+.SRHeaderActiveRight
+{
+	background-position: left top;
+	background-image: url(../Ceridian/Images/registration_hdr_active_right.png);
+	background-repeat: no-repeat;
+	height: 30px;
+}

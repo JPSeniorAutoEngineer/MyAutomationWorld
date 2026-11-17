@@ -1,0 +1,11 @@
+1. How Will exclude a scenario alone from execution using Cucumber Runner Class
+2. What are the different types of exception in Selenium and explain those
+3. Different type of waits
+4. Write a program to count the occurrence of the characters in a string
+5. Explain Rest Assured automation framework
+6. API Status codes and reason for those status codes
+7. How will you manually test a API
+8. Write Positive and negative scenario for any API automated in your project
+9. Explain E2E functionality of your current or some specific project from your CV
+10. What is Path parameter & Query Parameter
+11. Different type of Authorization in API

@@ -1,0 +1,18 @@
+BNY Interview Questions
+
+1. Tell me about yourself.
+2. Roles and Responsibility of current project.
+3. Tell me about frameworks and project you worked on so far.
+4. Explain the current framework and framework you worked before
+5. Defect Life Cycle
+6. Defect High Severity & Low Severity
+7. Understanding the functionality from Business or stakeholder and Impact assessment f modules 
+7. Write/Tell me some negative scenarios for a Feature
+8. Write a program to identify the duplicate  in a array
+9. Explain the Application or Functionality of some project you worked
+10.SQL Basics
+11.Agile Experience
+12. Java Syntax and concepts
+13.Selenium Basics
+
+100885850

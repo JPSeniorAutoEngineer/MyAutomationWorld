@@ -1,0 +1,124 @@
+For a Julius Baer Singapore - Automation Tester / Automation Lead Final Round Interview, expect a mix of:
+
+Automation Framework & Technical Questions
+Leadership & Stakeholder Management Questions
+Banking / Wealth Management Domain Questions
+Problem-Solving & Scenario-Based Questions
+Client-Facing Communication Questions
+Technical Automation Questions
+Framework Design
+Explain the automation framework you designed from scratch.
+Why did you choose Playwright/Selenium over other tools?
+How do you handle dynamic elements?
+How do you implement Page Object Model (POM)?
+How do you manage test data in your framework?
+How do you handle flaky test cases?
+What reporting mechanism have you implemented?
+How do you integrate automated tests with CI/CD pipelines?
+How do you achieve framework scalability?
+How do you maintain tests across multiple environments?
+Playwright Specific Questions
+Why is Playwright better than Selenium?
+How do you handle multiple browser contexts?
+Explain auto-waiting in Playwright.
+Difference between Locator and ElementHandle.
+How do you handle API testing using Playwright?
+How do you capture screenshots and videos for failures?
+How do you execute tests in parallel?
+How would you run only a single test from a spec file?
+How do you handle authentication in Playwright?
+How do you perform database validation in Playwright?
+Automation Lead Questions
+Team Management
+How many automation engineers have you managed?
+How do you assign work among team members?
+How do you track automation progress?
+How do you estimate automation effort?
+What KPIs do you monitor?
+How do you handle a team member who consistently misses deadlines?
+How do you mentor junior automation engineers?
+How do you conduct code reviews?
+Stakeholder Management
+How do you communicate automation ROI to leadership?
+How would you convince a client to invest in automation?
+What reports do you provide to management?
+How do you handle disagreements with Project Managers or Business Teams?
+How do you prioritize automation candidates?
+Banking Domain Questions
+
+Since Julius Baer is a Private Banking and Wealth Management organization, expect:
+
+What banking projects have you worked on?
+Explain Account Opening workflow.
+What is KYC?
+What is AML?
+Explain Portfolio Management.
+What is Wealth Management?
+What are Regulatory Compliance requirements?
+Difference between Retail Banking and Private Banking.
+Explain Fund Transfer flow.
+Have you tested any financial transactions?
+Sample Answer
+
+What is KYC?
+
+KYC (Know Your Customer) is a regulatory process used by banks to verify customer identity using documents such as Passport, National ID, Utility Bills, etc. It helps prevent money laundering, fraud, and terrorist financing.
+
+Scenario-Based Questions
+Q1. Production Defect Escaped. What Will You Do?
+
+Answer Structure:
+
+Identify impact.
+Perform RCA.
+Understand why testing missed it.
+Add regression test.
+Update automation suite.
+Review test strategy.
+Q2. Automation Coverage is Low. How Will You Improve It?
+
+Answer:
+
+Analyze application modules.
+Prioritize high-risk areas.
+Identify repetitive test cases.
+Automate smoke first.
+Extend to regression.
+Integrate with CI/CD.
+Q3. Client Says Automation Has No Value. What Will You Do?
+
+Answer:
+
+Show:
+
+Execution time reduction.
+Defect detection rate.
+Resource savings.
+Regression cycle improvement.
+ROI calculations.
+Leadership Questions
+Why Should Julius Baer Hire You?
+
+Sample Answer
+
+"I bring a strong combination of automation expertise, leadership experience, and banking domain exposure. I have experience building scalable automation frameworks, driving E2E automation initiatives, mentoring teams, and collaborating with stakeholders. I focus on delivering quality through efficient automation while continuously improving processes and ensuring business value."
+
+Final HR/Management Round Questions
+Tell me about yourself.
+Why Julius Baer?
+Why Singapore?
+Why are you looking for a change?
+What is your biggest automation achievement?
+Describe a difficult stakeholder situation.
+Where do you see yourself in five years?
+What are your salary expectations?
+Why should we select you over other candidates?
+Do you have any questions for us?
+Questions You Can Ask the Interviewer
+What is the current automation maturity within the organization?
+Is Playwright or Selenium the primary automation tool?
+What challenges does the automation team currently face?
+What percentage of regression is automated today?
+What are the expectations for the first 90 days in this role?
+
+For a Senior Automation Tester/Lead, focus strongly on framework architecture, Playwright, CI/CD, API automation, RCA, automation strategy, estimation, ROI, and stakeholder management, as these are commonly emphasized in final managerial rounds.
